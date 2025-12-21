@@ -1,0 +1,225 @@
+# Decap CMS Configuration
+# For local development, we use the local backend
+# For production, switch to git-gateway
+
+backend:
+  name: git-gateway
+  branch: main
+
+# For local development, uncomment this and comment out git-gateway above:
+# backend:
+#   name: local-backend
+
+# Where uploaded images are stored
+media_folder: "static/img/uploads"
+public_folder: "/img/uploads"
+
+# Locale
+locale: "fr"
+
+# Collections
+collections:
+  # ==================
+  # PROJECTS COLLECTION
+  # ==================
+  - name: "projects"
+    label: "Projets"
+    folder: "src/content/projects"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    sortable_fields: ["title", "year"]
+    view_groups:
+      - label: "Année"
+        field: year
+    fields:
+      # Basic info
+      - name: "title"
+        label: "Titre"
+        widget: "string"
+        required: true
+
+      - name: "slug"
+        label: "URL (slug)"
+        widget: "string"
+        required: true
+        pattern:
+          ["^[a-z0-9-]+$", "Uniquement lettres minuscules, chiffres et tirets"]
+        hint: "Ex: art-de-la-joie (sera l'URL /projects/art-de-la-joie)"
+
+      - name: "subtitle"
+        label: "Sous-titre"
+        widget: "string"
+        required: false
+        hint: "Ex: d'après Goliarda Sapienza"
+
+      - name: "year"
+        label: "Année"
+        widget: "number"
+        value_type: "int"
+        min: 2000
+        max: 2030
+        required: true
+
+      - name: "director"
+        label: "Metteur en scène"
+        widget: "string"
+        required: true
+
+      - name: "cover"
+        label: "Image de couverture"
+        widget: "image"
+        required: true
+        hint: "Image affichée sur la page d'accueil"
+
+      - name: "description"
+        label: "Description (À propos)"
+        widget: "text"
+        required: false
+        hint: "Texte affiché dans la section 'À propos'"
+
+      # Distribution (credits)
+      - name: "distribution"
+        label: "Distribution"
+        widget: "list"
+        required: false
+        collapsed: true
+        summary: "{{fields.role}}: {{fields.name}}"
+        fields:
+          - name: "role"
+            label: "Rôle"
+            widget: "string"
+            hint: "Ex: Mise en scène, Scénographie, Costumes..."
+          - name: "name"
+            label: "Nom(s)"
+            widget: "string"
+
+      # Content blocks (the magic!)
+      - name: "blocks"
+        label: "Contenu (blocs)"
+        widget: "list"
+        required: false
+        types:
+          # Image block
+          - name: "image"
+            label: "📷 Image"
+            widget: "object"
+            summary: "Image: {{fields.alt}} ({{fields.layout}})"
+            fields:
+              - name: "src"
+                label: "Image"
+                widget: "image"
+                required: true
+              - name: "alt"
+                label: "Texte alternatif"
+                widget: "string"
+                required: true
+                hint: "Description de l'image pour l'accessibilité"
+              - name: "layout"
+                label: "Disposition"
+                widget: "select"
+                default: "center"
+                options:
+                  - { label: "Pleine largeur", value: "center" }
+                  - { label: "À gauche", value: "left" }
+                  - { label: "À droite", value: "right" }
+              - name: "caption"
+                label: "Légende"
+                widget: "string"
+                required: false
+
+          # Text block
+          - name: "text"
+            label: "📝 Texte"
+            widget: "object"
+            summary: "Texte: {{fields.content | truncate(50)}}"
+            fields:
+              - name: "content"
+                label: "Contenu"
+                widget: "markdown"
+                required: true
+
+  # ==================
+  # SITE SETTINGS
+  # ==================
+  - name: "settings"
+    label: "Paramètres du site"
+    files:
+      - name: "site"
+        label: "Informations générales"
+        file: "src/content/settings/site.yml"
+        fields:
+          - name: "name"
+            label: "Nom"
+            widget: "string"
+          - name: "email"
+            label: "Email de contact"
+            widget: "string"
+          - name: "portrait"
+            label: "Photo de profil"
+            widget: "image"
+          - name: "headline"
+            label: "Titre d'introduction"
+            widget: "string"
+          - name: "subheadline"
+            label: "Sous-titre d'introduction"
+            widget: "text"
+
+  # ==================
+  # PARCOURS (CV)
+  # ==================
+  - name: "parcours"
+    label: "Parcours"
+    files:
+      - name: "experience"
+        label: "Expériences"
+        file: "src/content/parcours/experience.yml"
+        fields:
+          - name: "items"
+            label: "Expériences"
+            widget: "list"
+            collapsed: true
+            summary: "{{fields.year}}"
+            fields:
+              - name: "year"
+                label: "Année"
+                widget: "string"
+              - name: "projects"
+                label: "Projets"
+                widget: "list"
+                fields:
+                  - name: "title"
+                    label: "Titre"
+                    widget: "string"
+                  - name: "role"
+                    label: "Rôle"
+                    widget: "string"
+                    required: false
+                  - name: "desc"
+                    label: "Description"
+                    widget: "string"
+
+      - name: "formation"
+        label: "Formation"
+        file: "src/content/parcours/formation.yml"
+        fields:
+          - name: "items"
+            label: "Formations"
+            widget: "list"
+            collapsed: true
+            summary: "{{fields.year}}"
+            fields:
+              - name: "year"
+                label: "Année"
+                widget: "string"
+              - name: "projects"
+                label: "Diplômes/Formations"
+                widget: "list"
+                fields:
+                  - name: "title"
+                    label: "Titre"
+                    widget: "string"
+                  - name: "desc"
+                    label: "Description"
+                    widget: "string"

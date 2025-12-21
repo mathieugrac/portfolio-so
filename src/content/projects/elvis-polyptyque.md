@@ -1,0 +1,68 @@
+---
+title: "Elvis (Polyptyque)"
+slug: "elvis-polyptyque"
+subtitle: "de Emmanuel Darley"
+year: 2015
+director: "Emmanuel Darley et Gilone Brun"
+cover: "/img/cover/cover-elvis-polyptique-darley.jpg"
+description: "Quelque part dans le sud des États-Unis, un jeune garçon répondant au nom d'Elvis Aaron Presley se rêve camionneur. Sa mère lui offre un peigne pour coiffer ses cheveux. Son père lui offre une guitare. Sa bonne fée vient lui dire que plus tard, en fait, c'est plutôt King du rock qu'il fera comme métier. Alors il se met à chanter, et de suite tout le monde l'aime (...). J'ai assisté Gilone Brun sur la scénographie et les costumes de Elvis (Polyptyque), écrit par Emmanuel Darley. Cette collaboration m'a permis de participer pleinement à la conception de l'espace scénique, mais aussi de suivre de près le travail de mise en scène, aux côtés de l'auteur du texte."
+distribution:
+  - role: "Mise en scène"
+    name: "Emmanuel Darley et Gilone Brun"
+  - role: "Scénographie"
+    name: "Gilone Brun"
+  - role: "Son"
+    name: "Manu Deligne"
+  - role: "Lumières"
+    name: "José Victorien"
+  - role: "Costumes"
+    name: "Gilone Brun"
+  - role: "Régie Générale"
+    name: "Juliette Besançon"
+  - role: "Avec"
+    name: "Émeline Bayart, Heidi Becker-Babel, Vincent Leenhardt, Dominique Parent, Yan Tassin"
+  - role: "Crédit photo"
+    name: "Noric Laruelle"
+blocks:
+  - type: "image"
+    src: "/img/elvis/elvis-polyptyque-emmanuel-darley-yan-tassin.jpg"
+    alt: "Yan Tassin dans le rôle d'Elvis"
+    layout: "center"
+    caption: "Yan Tassin dans le rôle double d'Elvis et Jesse Garon, son frère jumeau mort-né."
+  - type: "image"
+    src: "/img/elvis/elvis-polyptyque-heidi-becker-babel.jpg"
+    alt: "Heidi Becker-Babel"
+    layout: "right"
+    caption: "Heidi Becker-Babel dans le rôle de la Fée, 'Little Queenie'. Création d'une maquette en 'pop-up' représentant la maison d'enfance d'Elvis Presley à Tupelo."
+  - type: "image"
+    src: "/img/elvis/elvis-polyptyque-darley-vincent-leenhardt-emeline-bayart.jpg"
+    alt: "Vincent Leenhardt et Emeline Bayart"
+    layout: "left"
+    caption: "Vincent Leenhardt et Emeline Bayart dans les rôles de Vernon Presley et Gladys Love Smith, les parents d'Elvis."
+  - type: "image"
+    src: "/img/elvis/elvis-polyptyque-darley-orage.jpg"
+    alt: "Scène de l'orage"
+    layout: "right"
+  - type: "text"
+    content: |
+      ## Note de l'auteur
+
+      « Écrire sur une idole. Un personnage ainsi adulé, adoration presque religieuse, démesurée, invraisemblable. Elvis Presley. Trouver la manière de raconter cette vie-là, ce qui brille de mille feux et puis le sombre, ce qui se joue derrière. Naissance/mort du frère, enfance, découverte de la musique, gloire fulgurante. Focale sur l'intime. Le point de départ de ce projet, c'est une envie, un questionnement autour de la peinture de la Renaissance, des retables en particulier. Chercher une équivalence de ces polyptyques dans l'écriture théâtrale. Faire le portrait en creux d'un disparu. »
+
+      *— Emmanuel Darley*
+  - type: "image"
+    src: "/img/elvis/elvis-polyptyque-yan-tassin-dominique-parent.jpg"
+    alt: "Yan Tassin et Dominique Parent"
+    layout: "left"
+    caption: "Yan Tassin (Elvis) et Dominique Parent dans le rôle du Colonel."
+  - type: "image"
+    src: "/img/elvis/elvis-polyptyque-darley-fans-heidi-emeline.jpg"
+    alt: "Les fans"
+    layout: "center"
+    caption: "Heidi Becker-Babel et Emeline Bayart : les fans."
+  - type: "image"
+    src: "/img/elvis/elvis-polyptyque-darley-2015-les-fans.jpg"
+    alt: "Les fans"
+    layout: "center"
+---
+

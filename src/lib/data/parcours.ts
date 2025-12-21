@@ -1,0 +1,141 @@
+export interface ParcoursProject {
+	title: string;
+	role?: string;
+	desc: string;
+}
+
+export interface ParcoursYear {
+	year: string;
+	projects: ParcoursProject[];
+}
+
+export interface Parcours {
+	experience: ParcoursYear[];
+	formation: ParcoursYear[];
+}
+
+export const parcours: Parcours = {
+	experience: [
+		{
+			year: '2014',
+			projects: [
+				{
+					title: 'Elle, de Jean Genet',
+					role: 'Scénographie, costumes et accessoires',
+					desc: 'Mise en scène Vincent Thépaut. Création pour le festival Venice Open Stage – Venise'
+				},
+				{
+					title: 'Le Wa, festival alternatif',
+					role: 'Construction',
+					desc: "Crée par le collectif Égrégore. Aide à l'amménagement du site – Émmaüs de Rédéné"
+				},
+				{
+					title: 'Le Vice Consul, de Marguerite Duras',
+					role: 'Scénographie et costumes',
+					desc: 'Mise en scène Eric Vigner. Théâtre National de Strasbourg – Théâtre de La Commune'
+				},
+				{
+					title: "Le Frigo et La Difficulté de s'exprimer, de Copi",
+					role: 'Scénographie et accessoires',
+					desc: 'Mise en scène Sacha Todorov – Théâtre National de Strasbourg'
+				}
+			]
+		},
+		{
+			year: '2013',
+			projects: [
+				{
+					title: 'Le Roi nu, de Evguéni Schwartz',
+					role: 'Mise en scène, costumes et accessoires',
+					desc: 'Projet collectif – Braux, Alpes de Haute-Provence'
+				},
+				{
+					title: 'Par les villages, de Peter Handke',
+					role: 'Scénographie, régie plateau',
+					desc: "Stage auprès d'Emmanuel Clolus. Mise en scène Stanislas Nordey – Palais des Papes, Avignon"
+				},
+				{
+					title: 'Cromwell, de Victor Hugo',
+					role: 'Costumes',
+					desc: 'Mise en scène Sacha Todorov – Théâtre National de Strasbourg'
+				}
+			]
+		},
+		{
+			year: '2012',
+			projects: [
+				{
+					title: "L'Histoire de Léa, vie et mort de Barbe Bleue",
+					role: 'Costumes, maquillage et accesssoires',
+					desc: 'Adaptation et mise en scène Léo Cohen-Paperman. Compagnie des Animaux en Paradis – Espace Jean Vilar, Revin'
+				}
+			]
+		},
+		{
+			year: '2011',
+			projects: [
+				{
+					title: 'Grand-peur et Misère du IIIe Reich, de Bertolt Brecht',
+					role: 'Scénographie',
+					desc: "Mise en scène Malena Perrot, Compagnie Branle-bas d'Art – Avignon Off"
+				}
+			]
+		},
+		{
+			year: '2009',
+			projects: [
+				{
+					title: "Scénographie d'Exposition",
+					desc: "Stage auprès de Marie-Laure Mehl, exposition et muséographie – Atelier Mehl'Usine, Paris"
+				}
+			]
+		}
+	],
+	formation: [
+		{
+			year: '2014',
+			projects: [
+				{
+					title: 'Diplôme de Scénographie et Costumes',
+					desc: "École Supérieure d'Art Dramatique du Théâtre National de Strasbourg (Groupe 41)"
+				},
+				{
+					title: 'Master II parcours Théâtre et Pratique de la scène',
+					desc: 'Université Paris Ouest Nanterre'
+				}
+			]
+		},
+		{
+			year: '2011',
+			projects: [
+				{
+					title: "UFR d'Études Théâtrales",
+					desc: 'Deuxième année de Licence – Université La Sorbonne, Paris'
+				},
+				{
+					title: 'Formation Atelier Théâtre',
+					desc: 'Interprétation – Centre des Arts de la Scène, Paris'
+				}
+			]
+		},
+		{
+			year: '2010',
+			projects: [
+				{
+					title: "BTS Design d'Espace",
+					desc: "École Nationale Supérieure des Arts Appliqués et des Métiers d'Arts – Olivier de Serres, Paris"
+				}
+			]
+		},
+		{
+			year: '2008',
+			projects: [
+				{
+					title: 'Baccalauréat STI Arts Appliqués',
+					desc: 'Lycée Denis Diderot – Marseille'
+				}
+			]
+		}
+	]
+};
+

@@ -1,0 +1,22 @@
+items:
+  - year: "2014"
+    projects:
+      - title: "Diplôme de Scénographie et Costumes"
+        desc: "École Supérieure d'Art Dramatique du Théâtre National de Strasbourg (Groupe 41)"
+      - title: "Master II parcours Théâtre et Pratique de la scène"
+        desc: "Université Paris Ouest Nanterre"
+  - year: "2011"
+    projects:
+      - title: "UFR d'Études Théâtrales"
+        desc: "Deuxième année de Licence – Université La Sorbonne, Paris"
+      - title: "Formation Atelier Théâtre"
+        desc: "Interprétation – Centre des Arts de la Scène, Paris"
+  - year: "2010"
+    projects:
+      - title: "BTS Design d'Espace"
+        desc: "École Nationale Supérieure des Arts Appliqués et des Métiers d'Arts – Olivier de Serres, Paris"
+  - year: "2008"
+    projects:
+      - title: "Baccalauréat STI Arts Appliqués"
+        desc: "Lycée Denis Diderot – Marseille"
+
