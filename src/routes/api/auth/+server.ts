@@ -34,44 +34,71 @@ export const GET: RequestHandler = async ({ url }) => {
   if (tokenData.error) {
     return new Response(
       `<!DOCTYPE html>
-<html><head><meta charset="utf-8"></head>
-<body><script>
-  window.opener && window.opener.postMessage(
-    "authorization:github:error:" + ${JSON.stringify(JSON.stringify({ msg: tokenData.error }))},
-    "*"
-  );
-  setTimeout(() => window.close(), 1000);
-</script>
+<html><head><meta charset="utf-8"><title>Auth Error</title></head>
+<body>
 <p>Error: ${tokenData.error_description || tokenData.error}</p>
+<script>
+(function() {
+  var error = ${JSON.stringify(tokenData.error_description || tokenData.error)};
+  var msg = "authorization:github:error:" + JSON.stringify({msg: error});
+  
+  // Try window.opener
+  if (window.opener) {
+    window.opener.postMessage(msg, "*");
+    window.close();
+  }
+})();
+</script>
 </body></html>`,
       { headers: { "Content-Type": "text/html" } }
     );
   }
 
-  // Try the format Decap CMS expects
+  const token = tokenData.access_token;
+  
+  // Return HTML that sends the message and handles the case where opener is null
   return new Response(
     `<!DOCTYPE html>
-<html><head><meta charset="utf-8"></head>
-<body><script>
+<html><head><meta charset="utf-8"><title>Auth</title></head>
+<body>
+<script>
 (function() {
-  var token = "${tokenData.access_token}";
+  var token = "${token}";
   var provider = "github";
+  var msg = "authorization:" + provider + ":success:" + JSON.stringify({token: token, provider: provider});
   
-  // Format 1: JSON with token and provider
-  var msg1 = "authorization:" + provider + ":success:" + JSON.stringify({token: token, provider: provider});
+  console.log("Sending auth message:", msg);
   
-  // Format 2: JSON with access_token
-  var msg2 = "authorization:" + provider + ":success:" + JSON.stringify({access_token: token});
-  
-  console.log("Sending messages:", msg1, msg2);
-  
+  // Method 1: Try window.opener (standard way)
   if (window.opener) {
-    window.opener.postMessage(msg1, "*");
-    setTimeout(function() { window.opener.postMessage(msg2, "*"); }, 50);
-    setTimeout(function() { window.close(); }, 1000);
-  } else {
-    document.body.innerHTML = "<p>Auth successful. Token: " + token.substring(0,10) + "... Close this window.</p>";
+    console.log("Found window.opener, sending message");
+    window.opener.postMessage(msg, "${url.origin}");
+    setTimeout(function() { window.close(); }, 500);
+    return;
   }
+  
+  // Method 2: Try parent (in case of iframe)
+  if (window.parent && window.parent !== window) {
+    console.log("Found window.parent, sending message");
+    window.parent.postMessage(msg, "${url.origin}");
+    setTimeout(function() { window.close(); }, 500);
+    return;
+  }
+  
+  // Method 3: Use BroadcastChannel API
+  if (typeof BroadcastChannel !== 'undefined') {
+    console.log("Using BroadcastChannel");
+    var bc = new BroadcastChannel('decap-cms-auth');
+    bc.postMessage({token: token, provider: provider});
+    bc.close();
+  }
+  
+  // Method 4: Use localStorage (fallback - parent window can listen for storage events)
+  console.log("Using localStorage fallback");
+  localStorage.setItem('decap-cms-auth', JSON.stringify({token: token, provider: provider, timestamp: Date.now()}));
+  
+  // Show success message
+  document.body.innerHTML = '<p>Authentication successful!</p><p>Token received. You can close this window and refresh the admin page.</p>';
 })();
 </script>
 <p>Authenticating...</p>
