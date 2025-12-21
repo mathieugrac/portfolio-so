@@ -1,14 +1,17 @@
 # Decap CMS Configuration
-# For local development, we use the local backend
-# For production, switch to git-gateway
+# Using GitHub backend for Vercel deployment
 
 backend:
-  name: git-gateway
+  name: github
+  repo: YOUR_USERNAME/portfolio-anneso  # ⚠️ CHANGE THIS to your GitHub username/repo
   branch: main
+  base_url: https://YOUR_VERCEL_DOMAIN.vercel.app  # ⚠️ CHANGE THIS after deployment
+  auth_endpoint: /api/auth
 
-# For local development, uncomment this and comment out git-gateway above:
+# For local development with npx decap-server:
 # backend:
-#   name: local-backend
+#   name: proxy
+#   proxy_url: http://localhost:8081/api/v1
 
 # Where uploaded images are stored
 media_folder: "static/img/uploads"
