@@ -35,69 +35,53 @@ export const GET: RequestHandler = async ({ url }) => {
   const tokenData = await tokenResponse.json();
 
   if (tokenData.error) {
-    // Return error page
+    const content = `authorization:github:error:${JSON.stringify({ msg: tokenData.error_description || tokenData.error })}`;
+    
     return new Response(
       `<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Authentication Error</title>
-  </head>
+  <head><meta charset="utf-8"><title>Error</title></head>
   <body>
-    <p>Authentication error: ${tokenData.error_description || tokenData.error}</p>
     <script>
-      (function() {
-        function sendMessage(message) {
-          if (window.opener) {
-            window.opener.postMessage(message, "*");
-            setTimeout(function() { window.close(); }, 100);
-          } else {
-            document.body.innerHTML = '<p>Error: ' + message + '</p><p>Please close this window and try again.</p>';
-          }
-        }
-        sendMessage('authorization:github:error:${JSON.stringify(tokenData).replace(/'/g, "\\'")}');
-      })();
+      const content = '${content}';
+      if (window.opener) {
+        window.opener.postMessage(content, '*');
+      }
+      setTimeout(() => window.close(), 250);
     </script>
+    <p>${tokenData.error_description || tokenData.error}</p>
   </body>
 </html>`,
-      {
-        headers: { "Content-Type": "text/html; charset=utf-8" },
-      }
+      { headers: { "Content-Type": "text/html; charset=utf-8" } }
     );
   }
 
   // Step 3: Send token back to Decap CMS
-  const successData = JSON.stringify({
-    token: tokenData.access_token,
-    provider: "github",
-  }).replace(/'/g, "\\'");
+  const token = tokenData.access_token;
+  const content = `authorization:github:success:{"token":"${token}","provider":"github"}`;
 
   return new Response(
     `<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Authentication Successful</title>
-  </head>
+  <head><meta charset="utf-8"><title>Success</title></head>
   <body>
-    <p>Authenticating...</p>
     <script>
-      (function() {
-        function sendMessage(message) {
-          if (window.opener) {
-            window.opener.postMessage(message, "*");
-            setTimeout(function() { window.close(); }, 100);
-          } else {
-            document.body.innerHTML = '<p>Success! You can close this window.</p>';
-          }
-        }
-        sendMessage('authorization:github:success:${successData}');
-      })();
+      const content = '${content}';
+      console.log('Sending message:', content);
+      if (window.opener) {
+        window.opener.postMessage(content, '*');
+        console.log('Message sent to opener');
+      } else {
+        console.log('No opener found');
+      }
+      setTimeout(() => {
+        console.log('Closing window');
+        window.close();
+      }, 500);
     </script>
+    <p>Success! This window will close automatically...</p>
   </body>
 </html>`,
-    {
-      headers: { "Content-Type": "text/html; charset=utf-8" },
-    }
+    { headers: { "Content-Type": "text/html; charset=utf-8" } }
   );
 };
