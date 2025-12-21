@@ -1,10 +1,12 @@
-# Sveltia CMS Configuration (drop-in Decap CMS replacement with built-in OAuth)
-# Works on any platform: Vercel, Cloudflare, Netlify, etc.
+# Sveltia CMS Configuration (drop-in Decap CMS replacement)
+# Using custom OAuth endpoint on Vercel
 
 backend:
   name: github
   repo: mathieugrac/portfolio-so
   branch: main
+  base_url: https://portfolio-so.vercel.app
+  auth_endpoint: /api/auth
 
 # Where uploaded images are stored
 media_folder: "static/img/uploads"
