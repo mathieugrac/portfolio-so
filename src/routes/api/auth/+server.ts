@@ -39,47 +39,48 @@ export const GET: RequestHandler = async ({ url }) => {
       `<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>Error</title></head>
 <body>
+<p>Error: ${tokenData.error_description || tokenData.error}</p>
 <script>
-(function() {
-  function recieveMessage(e) {
-    console.log("recieveMessage %o", e);
+  if (window.opener) {
     window.opener.postMessage(
-      'authorization:github:error:' + JSON.stringify({msg: e.message, err: e}),
-      e.origin
+      "authorization:github:error:" + JSON.stringify({msg: "${tokenData.error_description || tokenData.error}"}),
+      "*"
     );
   }
-  window.addEventListener("message", recieveMessage, false);
-  window.opener.postMessage("authorizing:github", "*");
-})();
 </script>
-<p>Error: ${tokenData.error_description || tokenData.error}</p>
 </body></html>`,
       { headers: { "Content-Type": "text/html; charset=utf-8" } }
     );
   }
 
-  // Step 3: Return success page that communicates with Decap CMS
+  // Step 3: Return success - send token to opener
   const token = tokenData.access_token;
 
   return new Response(
     `<!DOCTYPE html>
 <html><head><meta charset="utf-8"><title>Success</title></head>
 <body>
+<p>Success! Closing...</p>
 <script>
-(function() {
-  function recieveMessage(e) {
-    console.log("recieveMessage %o", e);
-    window.opener.postMessage(
-      'authorization:github:success:' + JSON.stringify({token: "${token}", provider: "github"}),
-      e.origin
-    );
-    window.removeEventListener("message", recieveMessage, false);
+  const data = { token: "${token}", provider: "github" };
+  const message = "authorization:github:success:" + JSON.stringify(data);
+  
+  if (window.opener) {
+    // Try multiple times to ensure message is received
+    window.opener.postMessage(message, "*");
+    
+    setTimeout(function() {
+      window.opener.postMessage(message, "*");
+    }, 100);
+    
+    setTimeout(function() {
+      window.opener.postMessage(message, "*");
+      window.close();
+    }, 500);
+  } else {
+    document.body.innerHTML = "<p>Please close this window and refresh the admin page.</p>";
   }
-  window.addEventListener("message", recieveMessage, false);
-  window.opener.postMessage("authorizing:github", "*");
-})();
 </script>
-<p>Authorizing...</p>
 </body></html>`,
     { headers: { "Content-Type": "text/html; charset=utf-8" } }
   );
