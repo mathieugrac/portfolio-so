@@ -3,9 +3,9 @@
 
 backend:
   name: github
-  repo: YOUR_USERNAME/portfolio-anneso  # ⚠️ CHANGE THIS to your GitHub username/repo
+  repo: mathieugrac/portfolio-so
   branch: main
-  base_url: https://YOUR_VERCEL_DOMAIN.vercel.app  # ⚠️ CHANGE THIS after deployment
+  base_url: https://portfolio-so.vercel.app/
   auth_endpoint: /api/auth
 
 # For local development with npx decap-server:
