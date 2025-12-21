@@ -35,50 +35,69 @@ export const GET: RequestHandler = async ({ url }) => {
   const tokenData = await tokenResponse.json();
 
   if (tokenData.error) {
+    // Return error page
     return new Response(
-      `
-      <!DOCTYPE html>
-      <html>
-        <head><title>Auth Error</title></head>
-        <body>
-          <script>
-            window.opener.postMessage(
-              'authorization:github:error:${JSON.stringify(tokenData)}',
-              window.location.origin
-            );
-            window.close();
-          </script>
-        </body>
-      </html>
-    `,
+      `<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Authentication Error</title>
+  </head>
+  <body>
+    <p>Authentication error: ${tokenData.error_description || tokenData.error}</p>
+    <script>
+      (function() {
+        function sendMessage(message) {
+          if (window.opener) {
+            window.opener.postMessage(message, "*");
+            setTimeout(function() { window.close(); }, 100);
+          } else {
+            document.body.innerHTML = '<p>Error: ' + message + '</p><p>Please close this window and try again.</p>';
+          }
+        }
+        sendMessage('authorization:github:error:${JSON.stringify(tokenData).replace(/'/g, "\\'")}');
+      })();
+    </script>
+  </body>
+</html>`,
       {
-        headers: { "Content-Type": "text/html" },
+        headers: { "Content-Type": "text/html; charset=utf-8" },
       }
     );
   }
 
   // Step 3: Send token back to Decap CMS
+  const successData = JSON.stringify({
+    token: tokenData.access_token,
+    provider: "github",
+  }).replace(/'/g, "\\'");
+
   return new Response(
-    `
-    <!DOCTYPE html>
-    <html>
-      <head><title>Auth Success</title></head>
-      <body>
-        <script>
-          window.opener.postMessage(
-            'authorization:github:success:${JSON.stringify({
-              token: tokenData.access_token,
-              provider: "github",
-            })}',
-            window.location.origin
-          );
-          window.close();
-        </script>
-      </body>
-    </html>
-  `,
+    `<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Authentication Successful</title>
+  </head>
+  <body>
+    <p>Authenticating...</p>
+    <script>
+      (function() {
+        function sendMessage(message) {
+          if (window.opener) {
+            window.opener.postMessage(message, "*");
+            setTimeout(function() { window.close(); }, 100);
+          } else {
+            document.body.innerHTML = '<p>Success! You can close this window.</p>';
+          }
+        }
+        sendMessage('authorization:github:success:${successData}');
+      })();
+    </script>
+  </body>
+</html>`,
     {
-      headers: { "Content-Type": "text/html" },
+      headers: { "Content-Type": "text/html; charset=utf-8" },
     }
   );
 };
