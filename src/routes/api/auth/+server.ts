@@ -1,8 +1,6 @@
 import { redirect } from "@sveltejs/kit";
+import { GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET } from "$env/static/private";
 import type { RequestHandler } from "./$types";
-
-const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID || "";
-const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET || "";
 
 export const GET: RequestHandler = async ({ url }) => {
   const code = url.searchParams.get("code");
@@ -84,4 +82,3 @@ export const GET: RequestHandler = async ({ url }) => {
     }
   );
 };
-
