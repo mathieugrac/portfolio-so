@@ -65,7 +65,8 @@ export const GET: RequestHandler = async ({ url }) => {
 (function() {
   var token = "${token}";
   var provider = "github";
-  var msg = "authorization:" + provider + ":success:" + JSON.stringify({token: token, provider: provider});
+  // Decap CMS expects just the token, not JSON
+  var msg = "authorization:" + provider + ":success:" + token;
   
   console.log("Sending auth message:", msg);
   
