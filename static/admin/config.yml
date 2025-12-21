@@ -5,7 +5,7 @@ backend:
   name: github
   repo: mathieugrac/portfolio-so
   branch: main
-  base_url: https://portfolio-so.vercel.app/
+  base_url: https://portfolio-so.vercel.app
   auth_endpoint: /api/auth
 
 # For local development with npx decap-server:
