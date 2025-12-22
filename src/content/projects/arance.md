@@ -1,5 +1,5 @@
 ---
-title: Arancini
+title: Arance
 slug: arance
 subtitle: Arance, avoid shooting blacks
 year: 2015
@@ -24,13 +24,14 @@ distribution:
 blocks:
   - type: image
     src: /img/arance/arance-pietro-marullo-emulation-2015-melancolia.jpg
-    alt: Scène du spectacle Arance
+    alt: Scène du spectacle Aranceà
     layout: center
     caption: ARANCE s'est joué au Théâtre de Liège (salle de la Grande Main) en avril 2015, dans le cadre du Festival Emulation. Le parti pris scénographique a été de renverser l'espace scène/salle en plaçant les spectateurs sur le plateau (au lointain). Au cours de la représentation, le rideau de fer s'ouvrait, découvrant ainsi l'entièreté de la salle et son gradin de 600 places.
   - type: image
     src: /img/arance/arance_festival-emulation-2015.jpg
     alt: Festival Emulation 2015
     layout: right
+    caption: ''
   - type: image
     src: /img/arance/arance-pietro-marullo-2015-hamado-tiemtore.jpg
     alt: Hamado Tiemtoré dans le rôle d'Ahmed
