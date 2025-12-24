@@ -5,7 +5,7 @@ subtitle: d'après Goliarda Sapienza
 year: 2023
 order: 1
 director: Ambre Kahan
-cover: /img/cover/art-de-la-joie-ambre-kahan-sapienza-mc93-couverture.jpg
+cover: /img/uploads/art-de-la-joie-ambre-kahan-sapienza-mc93-couverture.jpg
 description: "Après une première collaboration sur IVRES, j'embarque de nouveau avec Ambre Kahan sur l'adaptation de l'Art de la joie : œuvre immensément riche à tous points de vue. Grandement inspiré de l'architecture Italienne et plus particulièrement de la Sicile - lieu emblématique du récit - nous avons imaginé un décor qui puisse accueillir cette traversée dans le temps, cette épopée joyeuse qu'est le parcours de Modesta (interprétée par Noémie Gantier). Porté par 14 acteurs et actrices, le spectacle tend à raconter les deux premières parties du roman de Goliarda Sapienza, de 1905 à 1930."
 distribution:
   - role: Mise en scène
@@ -32,60 +32,60 @@ distribution:
     name: Maurizio Mauretti, Myrtille et Fanny des ateliers de construction, et toute l'équipe d'accueil de la MC93
 blocks:
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins-noemie-gantier.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins-noemie-gantier.jpg
     alt: Scène de L'Art de la joie
     layout: center
     caption: ''
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-anne-sophie-grac-scenographie-decor.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-anne-sophie-grac-scenographie-decor.jpg
     alt: Croquis de scénographie
     layout: center
     caption: 'Croquis présentant les trois configurations du décor : le Couvent, le Château du Carmel et la Villa Suravita.'
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins-noemie-gantier-modesta.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins-noemie-gantier-modesta.jpg
     alt: Noémie Gantier dans le rôle de Modesta
     layout: left
     caption: Noémie Gantier dans le rôle principal de Modesta.
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins-couvent.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins-couvent.jpg
     alt: Les sœurs du Couvent
     layout: right
     caption: Les sœurs du Couvent de la Vierge aux sept douleurs (tableau 1).
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-grac-scenographie.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-grac-scenographie.jpg
     alt: Vue d'ensemble du décor
     layout: left
     caption: Vue d'ensemble du décor dans la configuration 'Château du Carmel'.
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-MC93-aymeline-alix.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-MC93-aymeline-alix.jpg
     alt: Aymeline Alix et Elise Martin
     layout: left
     caption: Aymeline Alix dans le rôle de Gaïa et Elise Martin dans le rôle de Béatrice.
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-mc93-vanessa-koutseff-selim-zahrani.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-mc93-vanessa-koutseff-selim-zahrani.jpg
     alt: La Villa Suravita
     layout: center
     caption: La Villa Suravita. Vanessa Koutseff (Inès), Sélim Zahrani (Pietro) et Noémie Gantier (Modesta).
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-goliarda-sapienza-mc93-florent-favier-noemie-gantier.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-goliarda-sapienza-mc93-florent-favier-noemie-gantier.jpg
     alt: Florent Favier et Noémie Gantier
     layout: right
     caption: Florent Favier dans le rôle de Carlo et Noémie Gantier (Modesta).
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins-villa-suravita.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins-villa-suravita.jpg
     alt: Villa Suravita
     layout: center
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins.mc93-serge-nicolai.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins.mc93-serge-nicolai.jpg
     alt: Serge Nicolaï et Noémie Gantier
     layout: left
     caption: Serge Nicolaï dans le rôle de Carmine et Noémie Gantier (Modesta).
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins-alois-belbachir.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins-alois-belbachir.jpg
     alt: Jean Aloïs Belbachir
     layout: right
   - type: image
-    src: /img/joie/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins.jpg
+    src: /img/uploads/art-de-la-joie-ambre-kahan-goliarda-sapienza-scenographie-theatre-des-celestins.jpg
     alt: Image finale
     layout: center
     caption: Image finale de l'Art de la joie (Parties 1 & 2)

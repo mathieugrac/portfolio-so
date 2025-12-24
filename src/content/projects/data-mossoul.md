@@ -5,7 +5,7 @@ subtitle: "Joséphine Serre"
 year: 2019
 order: 9
 director: "Joséphine Serre"
-cover: "/img/cover/Data-mossoul-josephine-serre-la-colline-veronique-caye-video-scene-burka.jpg"
+cover: "/img/uploads/Data-mossoul-josephine-serre-la-colline-veronique-caye-video-scene-burka.jpg"
 description: "Data Mossoul met en scène une ingénieure du web privée d'une partie de sa mémoire, un bibliothécaire collectant les écrits d'anonymes, une archéologue à Mossoul sauvant des tablettes d'argile millénaires des destructions de Daesh et le roi-scribe assyrien Assurbanipal. Évoluant dans ces strates de géographies, d'époques et de civilisations, ces quatre personnages sont liés par la notion de conservation des récits et de transmission de l'Histoire. Avec, en filigrane, la figure de Gilgamesh, roi mythique sumérien dévoré par le désir de trouver l'immortalité et héros du premier récit de l'histoire de l'humanité. Il s'agissait de ma première collaboration avec Joséphine Serre, auteure, metteuse en scène et comédienne du spectacle. La création s'est déroulée au Théâtre National de la Colline (Petit Théâtre) et sera en tournée en 2020."
 distribution:
   - role: "Mise en scène"
@@ -30,7 +30,7 @@ distribution:
     name: "Didier Kuhn et Mickaël Franki / Atelier de la Colline"
 blocks:
   - type: "image"
-    src: "/img/data-mossoul/Data-mossoul-josephine-serre-la-colline-veronique-caye-edith-proust-aurelien-rondeau.jpg"
+    src: "/img/uploads/Data-mossoul-josephine-serre-la-colline-veronique-caye-edith-proust-aurelien-rondeau.jpg"
     alt: "Mila Shegg chez le neurologue"
     layout: "center"
     caption: "Mila Shegg, ingénieure du web (Edith Proust) chez le neurologue (Aurélien Rondeau)."
@@ -40,17 +40,17 @@ blocks:
 
       La scénographie de Data, Mossoul a été pensé en collaboration étroite avec les images de Véronique Caye, metteuse en scène et vidéaste. Elle s'articule autour de quatre tulles de dimensions différentes sur lesquels sont projetés de nombreuses images : codes informatique, paysages de désert, ruines de Mossoul... À la manière d'un voyage à travers le temps, ces projections nous transportent tour à tour dans les lieux évoqués par le texte : à Ninive (ancienne ville de Mossoul) en 600 avant J-C, à Mossoul en 2014 ou encore dans la Silicon Valley en 2025. Le décor quant à lui, est matérialisé par une très longue table centrale, support de jeu modulable en fonction des époques citées.
   - type: "image"
-    src: "/img/data-mossoul/Data-mossoul-josephine-serre-la-colline-anne-sophie-grac-estelle-meyer.jpg"
+    src: "/img/uploads/Data-mossoul-josephine-serre-la-colline-anne-sophie-grac-estelle-meyer.jpg"
     alt: "Siège de l'empereur Assyrien"
     layout: "center"
     caption: "Siège de l'empereur Assyrien Sîn-Shar-Ishkun, dans la grande bibliothèque de son père Assurbanipal, à Ninive. Au centre : Estelle Meyer dans le rôle de Sîn-Shar-Ishkun."
   - type: "image"
-    src: "/img/data-mossoul/Data-mossoul-josephine-serre-la-colline-scenographie-assyrienne-lou-chenivesse.jpg"
+    src: "/img/uploads/Data-mossoul-josephine-serre-la-colline-scenographie-assyrienne-lou-chenivesse.jpg"
     alt: "Reproduction du visage de Gilgamesh"
     layout: "left"
     caption: "Reproduction du visage de Gilgamesh (moulage et tirage en plâtre) réalisée par Lou Chenivesse."
   - type: "image"
-    src: "/img/data-mossoul/Data-mossoul-josephine-serre-anne-sophie-grac-la-colline.jpg"
+    src: "/img/uploads/Data-mossoul-josephine-serre-anne-sophie-grac-la-colline.jpg"
     alt: "L'archéologue à Mossoul"
     layout: "center"
     caption: "Joséphine Serre dans le rôle de l'archéologue, à Mossoul."
