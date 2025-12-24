@@ -81,8 +81,27 @@ CMS Edit → GitHub Commit → Vercel Auto-deploy → Live in ~60s
 
 The `/www` folder contains the original static HTML site with 23 projects. Use as reference for migrating remaining content.
 
+## Local Development
+
+```bash
+# First time setup
+cd sveltekit-portfolio
+npm install
+
+# Start dev server (http://localhost:5173)
+npm run dev
+
+# Before starting work, sync with remote
+git pull
+
+# After making changes
+git add -A && git commit -m "your message"
+git pull --rebase && git push
+```
+
 ## Common Tasks
 
 - **Add project:** Use CMS at `/admin` or create `.md` file in `src/content/projects/`
 - **Add images:** Upload to `static/img/` (CMS uploads to `static/img/uploads/`)
 - **Update parcours:** Edit via CMS or modify `src/content/parcours/*.yml`
+- **Reorder projects:** Edit `src/content/settings/projects-order.yml` or use CMS → Paramètres → Ordre des projets
