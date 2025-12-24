@@ -9,13 +9,13 @@ Portfolio website for **Anne Sophie Grac**, a French scenographer and costume de
 
 ## Stack
 
-| Layer | Technology |
-|-------|------------|
-| Framework | SvelteKit 2 (Svelte 5) |
-| CMS | Sveltia CMS (Decap CMS fork) |
-| Hosting | Vercel |
-| Auth | GitHub OAuth (custom endpoint) |
-| Content | Markdown (YAML frontmatter) |
+| Layer     | Technology                     |
+| --------- | ------------------------------ |
+| Framework | SvelteKit 2 (Svelte 5)         |
+| CMS       | Sveltia CMS (Decap CMS fork)   |
+| Hosting   | Vercel                         |
+| Auth      | GitHub OAuth (custom endpoint) |
+| Content   | Markdown (YAML frontmatter)    |
 
 ## Project Structure
 
@@ -43,6 +43,7 @@ sveltekit-portfolio/
 ## Content Schema
 
 ### Project (`src/content/projects/*.md`)
+
 ```yaml
 title: "Project Name"
 slug: "url-slug"
@@ -85,4 +86,3 @@ The `/www` folder contains the original static HTML site with 23 projects. Use a
 - **Add project:** Use CMS at `/admin` or create `.md` file in `src/content/projects/`
 - **Add images:** Upload to `static/img/` (CMS uploads to `static/img/uploads/`)
 - **Update parcours:** Edit via CMS or modify `src/content/parcours/*.yml`
-
