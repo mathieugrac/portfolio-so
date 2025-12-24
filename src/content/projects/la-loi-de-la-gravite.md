@@ -3,7 +3,6 @@ title: "La loi de la gravité"
 slug: "la-loi-de-la-gravite"
 subtitle: "d'Olivier Sylvestre"
 year: 2017
-order: 13
 director: "Anthony Thibault"
 cover: "/img/uploads/la-loi-de-la-gravite-anthony-thibault-anne-sophie-grac-quentin-laugier-alison-valence-couverture.jpg"
 description: "Dans un style direct où chaque réplique est un coup porté pour mieux se défendre, La Loi de la gravité met en scène Dom et Fred, 14 ans, fille masculine et garçon féminin, qui trouvent en l'autre un refuge contre le monde où la norme tue. Fred est nouveau dans Presque-La-Ville. Dom ne va plus au lycée et passe ses journées sur la colline à observer la vraie Ville, de l'autre côté du pont, lieu de tous les fantasmes et d'une liberté encore inaccessible. Se profile alors la quête d'un genre à soi, unique, qu'ils doivent imaginer pour survivre, pour mieux vivre."

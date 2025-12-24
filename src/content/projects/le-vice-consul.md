@@ -3,7 +3,6 @@ title: "Le Vice Consul"
 slug: "le-vice-consul"
 subtitle: "d'après le roman de Marguerite Duras"
 year: 2014
-order: 22
 director: "Éric Vigner"
 cover: "/img/uploads/cover-vice-consul.jpg"
 description: "L'atelier-spectacle du Vice-Consul a été dirigé par Éric Vigner au TNS, dans le cadre du projet de sortie du groupe 41. J'ai travaillé aux côtés d'Ingrid Pettigrew sur la conception du décor et des costumes du spectacle. Après avoir développé un univers commun, j'ai pris en charge l'élaboration complète des costumes (maquettes, échantillonnage, gestion des ateliers, essayages…), pendant qu'Ingrid s'occupait de la réalisation du décor. Les 14 silhouettes du spectacle ont été réalisées en collaboration avec les ateliers couture du TNS et les ateliers de La Martinière Diderot à Lyon."

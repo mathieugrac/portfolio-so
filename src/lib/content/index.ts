@@ -27,7 +27,6 @@ export interface Project {
   title: string;
   subtitle?: string;
   year: number;
-  order: number;
   director: string;
   cover: string;
   description?: string;
@@ -79,6 +78,41 @@ const formationFile = import.meta.glob("/src/content/parcours/formation.yml", {
   eager: true,
 }) as Record<string, string>;
 
+const projectsOrderFile = import.meta.glob("/src/content/settings/projects-order.yml", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+}) as Record<string, string>;
+
+/**
+ * Parse a YAML file content
+ */
+function parseYamlContent<T>(content: string): T | null {
+  if (!content) {
+    return null;
+  }
+
+  // If file has frontmatter delimiters, use gray-matter
+  if (content.startsWith("---")) {
+    const { data } = matter(content);
+    return data as T;
+  }
+
+  // Otherwise, parse as pure YAML using gray-matter's engine
+  return matter.engines.yaml.parse(content) as T;
+}
+
+/**
+ * Get the project order list from the centralized order file
+ */
+function getProjectOrder(): string[] {
+  const content = Object.values(projectsOrderFile)[0];
+  if (!content) return [];
+  
+  const data = parseYamlContent<{ order: string[] }>(content);
+  return data?.order || [];
+}
+
 /**
  * Get all projects from markdown files
  */
@@ -104,7 +138,6 @@ export async function getAllProjects(): Promise<Project[]> {
       title: data.title,
       subtitle: data.subtitle,
       year: data.year,
-      order: data.order ?? 999,
       director: data.director,
       cover: data.cover,
       description: data.description,
@@ -113,8 +146,28 @@ export async function getAllProjects(): Promise<Project[]> {
     });
   }
 
-  // Sort by order (lower order = appears first)
-  return projects.sort((a, b) => a.order - b.order);
+  // Get the order list from centralized file
+  const orderList = getProjectOrder();
+  
+  // Sort projects: 
+  // - Projects NOT in the order list appear first (new projects)
+  // - Then projects in the order list, sorted by their position
+  return projects.sort((a, b) => {
+    const indexA = orderList.indexOf(a.slug);
+    const indexB = orderList.indexOf(b.slug);
+    
+    // If neither is in the list, sort by year (newest first)
+    if (indexA === -1 && indexB === -1) {
+      return b.year - a.year;
+    }
+    
+    // Projects not in list come first
+    if (indexA === -1) return -1;
+    if (indexB === -1) return 1;
+    
+    // Both in list: sort by position
+    return indexA - indexB;
+  });
 }
 
 /**
@@ -125,24 +178,6 @@ export async function getProjectBySlug(
 ): Promise<Project | undefined> {
   const projects = await getAllProjects();
   return projects.find((p) => p.slug === slug);
-}
-
-/**
- * Parse a YAML file content
- */
-function parseYamlContent<T>(content: string): T | null {
-  if (!content) {
-    return null;
-  }
-
-  // If file has frontmatter delimiters, use gray-matter
-  if (content.startsWith("---")) {
-    const { data } = matter(content);
-    return data as T;
-  }
-
-  // Otherwise, parse as pure YAML using gray-matter's engine
-  return matter.engines.yaml.parse(content) as T;
 }
 
 /**

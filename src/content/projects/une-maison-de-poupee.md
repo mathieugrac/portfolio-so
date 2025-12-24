@@ -3,7 +3,6 @@ title: "Une Maison de poupée"
 slug: "une-maison-de-poupee"
 subtitle: "de Henrik Ibsen"
 year: 2016
-order: 16
 director: "Lorraine de Sagazan"
 cover: "/img/uploads/couverture-maison-de-poupee-scenographie.jpg"
 description: "La pièce, dans sa version originale, illustre le contraste entre la sphère privée, traditionnellement attribuée au sexe féminin et la sphère publique ; celle de l'action, de la morale et du devoir attribuée au sexe masculin. Pour raconter la violence qui est celle de la pièce d'Ibsen tout en interrogeant notre époque, Lorraine de Sagazan a choisi d'inverser les rôles de Nora et Torvald. Elle souhaite ainsi recréer le choc ressenti par les spectateurs d'Ibsen et permettre une véritable réflexion sur notre liberté, la difficulté à faire des choix pleinement assumés, l'injustice et la violence des nouveaux cadres qui nous étouffent encore et toujours. J'ai travaillé en collaboration avec Charles Chauvet sur la conception et la réalisation de la scénographie, des costumes et des accessoires de cette Maison de Poupée."

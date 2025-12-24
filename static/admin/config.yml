@@ -27,7 +27,7 @@ collections:
     slug: "{{slug}}"
     extension: "md"
     format: "yaml-frontmatter"
-    sortable_fields: ["order", "title", "year"]
+    sortable_fields: ["title", "year"]
     view_groups:
       - label: "Année"
         field: year
@@ -59,15 +59,6 @@ collections:
         min: 2000
         max: 2030
         required: true
-
-      - name: "order"
-        label: "Ordre d'affichage"
-        widget: "number"
-        value_type: "int"
-        min: 1
-        max: 100
-        required: true
-        hint: "Plus le nombre est petit, plus le projet apparaît en haut (1 = premier)"
 
       - name: "director"
         label: "Metteur en scène"
@@ -172,6 +163,24 @@ collections:
           - name: "subheadline"
             label: "Sous-titre d'introduction"
             widget: "text"
+
+      - name: "projects_order"
+        label: "Ordre des projets"
+        file: "src/content/settings/projects-order.yml"
+        fields:
+          - name: "order"
+            label: "Ordre d'affichage"
+            widget: "list"
+            label_singular: "Projet"
+            hint: "Glissez-déposez pour réorganiser. Le premier projet de la liste apparaît en haut de la page d'accueil. Les nouveaux projets non listés apparaîtront automatiquement en premier."
+            field:
+              name: "slug"
+              label: "Projet (slug)"
+              widget: "relation"
+              collection: "projects"
+              search_fields: ["title", "slug"]
+              value_field: "slug"
+              display_fields: ["title", " (", "year", ")"]
 
   # ==================
   # PARCOURS (CV)

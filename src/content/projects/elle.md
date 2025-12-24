@@ -3,7 +3,6 @@ title: "Elle"
 slug: "elle"
 subtitle: "de Jean Genet"
 year: 2016
-order: 18
 director: "Vincent Thépaut"
 cover: "/img/uploads/elle-jean-genet-decor-anne-sophie-grac-cover.jpg"
 description: "Pièce posthume et non achevée de Jean Genet, Elle est une satire à la fois drôle et tragique de l'humanité du Pape et de son image. Une image adulée par la foule qui s'inscrit avec grâce dans l'air de notre société, dont le besoin impérieux et stupide est de produire sans cesse «des» images. Elle a été crée en exterieur pour le Festival Venice Open Stage en 2014. Depuis, le spectacle a fait l'objet d'une adaptation en interieur. Il s'est joué à Paris au Jeune Théâtre National ainsi qu'au Théâtre de la Cité Internationale dans le cadre du Fastival JT16. Elle fait partie des productions du KLAB, collectif d'artistes-techniciens implanté à Strasbourg."

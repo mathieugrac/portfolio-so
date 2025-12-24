@@ -3,7 +3,6 @@ title: "Une vague espérance"
 slug: "une-vague-esperance"
 subtitle: "Joël Dragutin"
 year: 2021
-order: 7
 director: "Joël Dragutin"
 cover: "/img/uploads/une-vague-esperance-joel-dragutin-anne-sophie-grac-couverture.jpg"
 description: "Élisabeth et Lionel, couple de boomers à la retraite, réunissent leurs trois enfants, le temps d'un week-end, pour leur annoncer la vente de la ferme familiale. Léna, écologiste végane, Hugo, informaticien dépressif et Mathieu, nostalgique de valeurs anciennes, redécouvrent alors un attachement pour cette demeure qu'ils ont délaissée. Ma rencontre avec Joël et l'actualité indéniable du texte ont donné lieu à une collaboration réjouissante, dans laquelle j'ai pu rêver à un espace à la fois réaliste et chargé de poésie. La maison 'typique' Normande, sujet principal et sensible de la pièce, s'imposait à nous comme une évidence scénique. La bâtisse traverse le plateau en diagonale et présente des 'trouées' ou 'morcellements', que l'on retrouve aussi dans le sol (jardin), représenté en partie seulement. Ces manques sont à l'image de l'histoire racontée par Joël : celle d'une famille en perte de liens et plus largement, d'une société fragmentée. Au lointain, la reproduction du célèbre tableau de Monet, le champs de coquelicots, déréalise consciemment l'espace scénique et offre au spectateur une fenêtre pour s'échapper, ou de nouveau : espérer."

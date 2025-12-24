@@ -3,7 +3,6 @@ title: "Ô mon bel inconnu"
 slug: "o-mon-bel-inconnu"
 subtitle: "Livret Sacha Guitry - Musique Reynaldo Hahn"
 year: 2022
-order: 4
 director: "Émeline Bayart"
 cover: "/img/uploads/o-mon-bel-inconnu-emeline-bayart-palazzetto-bru-zane-couverture.jpg"
 description: "J'ai travaillé en étroite collaboration avec Emeline Bayart pour la création des décors et costumes de Ô mon bel inconnu, Opérette composée par Reynaldo Hahn sur un livret de Sacha Guitry. Nous sommes dans les années 1930 chez Prosper et Antoinette Aubertin, couple de chapeliers parisiens. Pour échapper à sa routine bourgeoise, Aubertin passe une annonce dans le journal pour trouver maîtresse. Parmi les réponses reçus par le mari, se trouvent trois lettres écrites par sa femme, sa fille, et sa bonne ! S'en suit une série de quiproquos entre les membres de la famille et d'explorations plus ou moins tendres sur l'insatisfaction et l'attrait de l'inconnu. Tout en conservant l'élégance des années 30, notamment dans les costumes, nous avons imaginé un décor évolutif, proposant de multiples \"surprises\" et appuis de jeu pour les interprètes. L'appartement des Aubertin devient malicieusement la boutique de chapeaux, puis, se transforme en villa Romaine pour l'acte 3, qui se déroule en bord de mer à Biarritz."

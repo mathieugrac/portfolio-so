@@ -3,7 +3,6 @@ title: "Gretel, Hansel et les autres"
 slug: "gretel-hansel-et-les-autres"
 subtitle: "de Igor Mendjisky"
 year: 2022
-order: 5
 director: "Igor Mendjisky"
 cover: "/img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-couverture.jpg"
 description: "Pour sa première création jeune public, Igor Mendjisky propose une fabrique entre rêve et réalité, dans un décor à hauteur d'enfant, empli de bruitages, d'animations et de musique. Il ancre ainsi le célèbre conte populaire dans le quotidien d'un enfant d'aujourd'hui, projetant qu'il est essentiel, à tout âge, d'attiser sa curiosité à découvrir le monde et de cultiver l'émerveillement. Notre collaboration a donné naissance à un décor magique où toboggan, château fort et cabane dans les bois se conjuguent dans un même espace aussi réaliste que poétique. L'illustration vivante d'une chambre rêvée par tous les enfants..."

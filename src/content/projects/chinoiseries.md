@@ -3,7 +3,6 @@ title: "Chinoiseries"
 slug: "chinoiseries"
 subtitle: "de Evelyne de la Chenelière"
 year: 2016
-order: 17
 director: "Nabil El Azan"
 cover: "/img/uploads/chinoiseries-nabil-el-azan-vingtieme-theatre-christine-murillo-cover.jpg"
 description: "Deux voisins de palier, Mme Potée et Mr Chiton. Mme Potée aime se brider les yeux pour apparaître telle une chinoise. M. Chiton souffre d'une tare familiale : on ne le remarque jamais. Ils vivent seuls, aimeraient bien se rencontrer, pourquoi pas s'aimer. Alors ils se tournent autour, s'épient, se croisent dans l'ascenseur. Mais y a-t-il un ascenseur dans l'immeuble ? D'ailleurs sortent-ils de chez eux vraiment ? Ainsi va ce couple d'un genre inédit, de coups croisés en coups manqués. Jusqu'au jour où Mme Potée décide de tenter le tout pour le tout en s'envolant vers Mr Chiton..."

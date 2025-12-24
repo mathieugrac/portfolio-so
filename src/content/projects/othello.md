@@ -3,7 +3,6 @@ title: "Othello"
 slug: "othello"
 subtitle: "de William Shakespeare"
 year: 2018
-order: 11
 director: "Léo Cohen-Paperman"
 cover: "/img/uploads/othello-leo-cohen-paperman-julien-romelard-anna-fournier-couverture.jpg"
 description: "Il s'agissait de ma troisième création aux côtés de Léo Cohen-Paperman, Directeur de la compagnie des Animaux en Paradis (Reims) et metteur en scène pour le Festival du Nouveau Théâtre populaire (Fontaine-Guérin) depuis 2009. Cette nouvelle adaptation d'Othello a bénéficié de la traduction inédite de Sacha Todorov, dramaturge, musicien et metteur en scène. Le spectacle a pu être produit grâce à l'association de la compagnie des Animaux en Paradis et O'Brother Company, dirigée par Fabien Joubert. \"Notre spectacle verra le jour à une époque qui offre les apparences déguisées de l'apocalypse. Et Othello est une œuvre désespérée, une commotion. C'est le cri ultime devant une sombre machination que rien ne sera parvenu à avorter, un merveilleux projet humain bravant l'inacceptable altérité anéanti par un homme, Iago, qui ne voit que non-sens et ténèbres au plus originel de la condition humaine.\""

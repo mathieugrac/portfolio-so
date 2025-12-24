@@ -3,7 +3,6 @@ title: "Ivres"
 slug: "ivres"
 subtitle: "Ivan Viripaev - Traduction du russe par Ambre Kahan et Anna Ivantchik"
 year: 2021
-order: 6
 director: "Ambre Kahan"
 cover: "/img/uploads/ivres-ambre-kahan-le-quai-angers-couverture.jpg"
 description: "Bien que nous nous connaissons depuis plusieurs années, IVRES a été ma première collaboration scénique avec Ambre Kahan. Chamboulée par la crise sanitaire, cette magnifique création a enfin vue le jour en septembre 2021, au QUAI - CDN d'Angers. Adaptée du texte Les enivrés de Ivan Viripaev, la pièce parle avant tout d'ivresse. L'ivresse de Dieu, l'ivresse de l'amour, l'ivresse de la libération. À travers une succession de tableaux, des êtres plus ivres les uns que les autres se croisent tout au long d'une nuit. Des couples, des amis, des inconnus, se rencontrent, s'affrontent et se confrontent, se retrouvent ou se trouvent."

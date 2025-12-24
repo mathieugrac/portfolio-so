@@ -3,7 +3,6 @@ title: "La culotte"
 slug: "la-culotte"
 subtitle: "De Jean Anouilh"
 year: 2023
-order: 3
 director: "Émeline Bayart"
 cover: "/img/uploads/la-culotte-emeline-bayart-grac-anne-sophie-couverture.jpg"
 description: "La Culotte d'Anouilh est une farce écrite en 1978. Dans une époque où les bourgeois ont encore le monopole sur le peuple, les femmes ont pris le pouvoir et souhaitent émasculer tous les hommes soupçonnés de phallocratie. Un grand procès s'ouvre sur le cas de Léon de Saint Pé, académicien, accusé d'avoir fait un enfant à la bonne. Pour cette deuxième collaboration avec Emeline Bayart, nous avons opté pour un univers Félinien, entre rêverie théâtrale et cauchemar fantasmagorique."

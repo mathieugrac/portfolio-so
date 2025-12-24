@@ -3,7 +3,6 @@ title: "Madame de Néandertal"
 slug: "madame-de-neandertal"
 subtitle: "de Marylène Patou-Mathis et Pascale Leroy"
 year: 2015
-order: 19
 director: "Corinne Lallemand et Emmanuelle Rozes"
 cover: "/img/uploads/madame-de-neandertal-pascale-vignal-couverture.jpg"
 description: "Sur une idée originale de Pascale Vignal, la création de Madame de Néandertal a été une aventure incroyablement belle et féminine. Six femmes se sont associées pour donner vie à La Grande, une Néandertalienne haute en couleur, imaginée par Pascale Leroy (auteure) et Marylène Patou-Mathis (historienne) dans leur roman Madame de Néandertal, journal intime sorti en 2014. Pascale Vignal interprète La Grande, mais aussi tous les autres personnages du roman. Ensemble, nous avons imaginé une grotte préhistorique bien à nous, plus actualisée que jamais : en carton ! J'ai construit la totalité du décor (ignifugé) et conçu les costumes, parrures et accessoires de la Grande. Le spectacle tourne dans de nombreux festivals et événements en lien avec la préhistoire."
