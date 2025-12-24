@@ -1,5 +1,5 @@
 ---
-title: L'Art de la joie 2
+title: L'Art de la joie
 slug: art-de-la-joie
 subtitle: d'après Goliarda Sapienza
 year: 2023
