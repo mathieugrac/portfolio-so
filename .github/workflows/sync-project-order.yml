@@ -1,0 +1,87 @@
+name: Sync Project Order
+
+# Trigger when files change in the projects folder
+on:
+  push:
+    paths:
+      - 'src/content/projects/*.md'
+    branches:
+      - main
+
+jobs:
+  sync-order:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # Need previous commit to detect new files
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Detect new projects and update order
+        run: |
+          ORDER_FILE="src/content/settings/projects-order.yml"
+          PROJECTS_DIR="src/content/projects"
+          
+          # Get list of project slugs from markdown files
+          ALL_SLUGS=""
+          for file in "$PROJECTS_DIR"/*.md; do
+            if [ -f "$file" ]; then
+              # Extract slug from frontmatter
+              slug=$(grep -m1 "^slug:" "$file" | sed 's/slug: *//' | tr -d '"' | tr -d "'" | tr -d ' ')
+              if [ -n "$slug" ]; then
+                ALL_SLUGS="$ALL_SLUGS $slug"
+              fi
+            fi
+          done
+          
+          # Get existing slugs from order file
+          EXISTING_SLUGS=$(grep "^  - " "$ORDER_FILE" | sed 's/^  - //')
+          
+          # Find new slugs (in ALL_SLUGS but not in EXISTING_SLUGS)
+          NEW_SLUGS=""
+          for slug in $ALL_SLUGS; do
+            if ! echo "$EXISTING_SLUGS" | grep -q "^${slug}$"; then
+              NEW_SLUGS="$NEW_SLUGS $slug"
+              echo "Found new project: $slug"
+            fi
+          done
+          
+          # If there are new slugs, prepend them to the order file
+          if [ -n "$NEW_SLUGS" ]; then
+            echo "Adding new projects to order file..."
+            
+            # Create new entries to prepend
+            NEW_ENTRIES=""
+            for slug in $NEW_SLUGS; do
+              NEW_ENTRIES="$NEW_ENTRIES  - $slug\n"
+            done
+            
+            # Insert new entries after "order:" line
+            sed -i "/^order:$/a\\
+$(echo -e "$NEW_ENTRIES" | sed 's/\\n$//')" "$ORDER_FILE"
+            
+            # Clean up any duplicate empty lines
+            sed -i '/^$/N;/^\n$/d' "$ORDER_FILE"
+            
+            echo "Updated $ORDER_FILE with new projects"
+            cat "$ORDER_FILE"
+          else
+            echo "No new projects to add"
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Check if there are changes to commit
+          if git diff --quiet src/content/settings/projects-order.yml; then
+            echo "No changes to commit"
+          else
+            git add src/content/settings/projects-order.yml
+            git commit -m "chore: auto-add new project(s) to order list"
+            git push
+          fi
+
