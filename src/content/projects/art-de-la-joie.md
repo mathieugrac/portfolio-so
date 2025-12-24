@@ -3,6 +3,7 @@ title: "L'Art de la joie"
 slug: "art-de-la-joie"
 subtitle: "d'après Goliarda Sapienza"
 year: 2023
+order: 1
 director: "Ambre Kahan"
 cover: "/img/cover/art-de-la-joie-ambre-kahan-sapienza-mc93-couverture.jpg"
 description: "Après une première collaboration sur IVRES, j'embarque de nouveau avec Ambre Kahan sur l'adaptation de l'Art de la joie : œuvre immensément riche à tous points de vue. Grandement inspiré de l'architecture Italienne et plus particulièrement de la Sicile - lieu emblématique du récit - nous avons imaginé un décor qui puisse accueillir cette traversée dans le temps, cette épopée joyeuse qu'est le parcours de Modesta (interprétée par Noémie Gantier). Porté par 14 acteurs et actrices, le spectacle tend à raconter les deux premières parties du roman de Goliarda Sapienza, de 1905 à 1930."

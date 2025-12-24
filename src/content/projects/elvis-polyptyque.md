@@ -3,6 +3,7 @@ title: "Elvis (Polyptyque)"
 slug: "elvis-polyptyque"
 subtitle: "de Emmanuel Darley"
 year: 2015
+order: 21
 director: "Emmanuel Darley et Gilone Brun"
 cover: "/img/cover/cover-elvis-polyptique-darley.jpg"
 description: "Quelque part dans le sud des États-Unis, un jeune garçon répondant au nom d'Elvis Aaron Presley se rêve camionneur. Sa mère lui offre un peigne pour coiffer ses cheveux. Son père lui offre une guitare. Sa bonne fée vient lui dire que plus tard, en fait, c'est plutôt King du rock qu'il fera comme métier. Alors il se met à chanter, et de suite tout le monde l'aime (...). J'ai assisté Gilone Brun sur la scénographie et les costumes de Elvis (Polyptyque), écrit par Emmanuel Darley. Cette collaboration m'a permis de participer pleinement à la conception de l'espace scénique, mais aussi de suivre de près le travail de mise en scène, aux côtés de l'auteur du texte."

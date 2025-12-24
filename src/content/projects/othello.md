@@ -1,0 +1,75 @@
+---
+title: "Othello"
+slug: "othello"
+subtitle: "de William Shakespeare"
+year: 2018
+order: 11
+director: "Léo Cohen-Paperman"
+cover: "/img/cover/othello-leo-cohen-paperman-julien-romelard-anna-fournier-couverture.jpg"
+description: "Il s'agissait de ma troisième création aux côtés de Léo Cohen-Paperman, Directeur de la compagnie des Animaux en Paradis (Reims) et metteur en scène pour le Festival du Nouveau Théâtre populaire (Fontaine-Guérin) depuis 2009. Cette nouvelle adaptation d'Othello a bénéficié de la traduction inédite de Sacha Todorov, dramaturge, musicien et metteur en scène. Le spectacle a pu être produit grâce à l'association de la compagnie des Animaux en Paradis et O'Brother Company, dirigée par Fabien Joubert. \"Notre spectacle verra le jour à une époque qui offre les apparences déguisées de l'apocalypse. Et Othello est une œuvre désespérée, une commotion. C'est le cri ultime devant une sombre machination que rien ne sera parvenu à avorter, un merveilleux projet humain bravant l'inacceptable altérité anéanti par un homme, Iago, qui ne voit que non-sens et ténèbres au plus originel de la condition humaine.\""
+distribution:
+  - role: "Mise en scène"
+    name: "Léo Cohen-Paperman"
+  - role: "Dramaturgie"
+    name: "Antoine Philippot"
+  - role: "Traduction"
+    name: "Sacha Todorov"
+  - role: "Scénographie"
+    name: "Anne-Sophie Grac"
+  - role: "Son"
+    name: "Antoine Reibre"
+  - role: "Lumières"
+    name: "Grégoire de Lafond"
+  - role: "Costumes"
+    name: "Solène Fourt"
+  - role: "Avec"
+    name: "Miloud Khetib (création) puis Emil Abossolo, Clovis Fouin, Anna Fournier, Elsa Grzeszczak, Jean-Michel Guérin, Fabien Joubert, Julien Romelard, Gisèle Torterolo."
+  - role: "Crédit photo"
+    name: "JAC"
+  - role: "Remerciement"
+    name: "O'Brother Company et la Compagnie des Animaux en Paradis, Laurent Malleval, Sophie Bouilleaux et toute l'équipe des ateliers du TNP"
+blocks:
+  - type: "image"
+    src: "/img/Othello/othello-shakespeare-leo-cohen-paperman.jpg"
+    alt: "Couloir de l'hôtel"
+    layout: "right"
+    caption: "Desdémone (Anna Fournier), Cassio (Julien Romelard) et Emilia (Gisèle Torterolo) dans le couloir de l'hôtel à Chypre."
+  - type: "image"
+    src: "/img/Othello/othello-leo-cohen-paperman-fabien-joubert-miloud-khetib.jpg"
+    alt: "Othello et Iago"
+    layout: "left"
+    caption: "Othello (Miloud Khetib) et Iago (Fabien Joubert) dans la chambre d'Othello et Desdémone."
+  - type: "image"
+    src: "/img/Othello/othello-leo-cohen-paperman-fabien-joubert.jpg"
+    alt: "Fabien Joubert"
+    layout: "center"
+  - type: "text"
+    content: |
+      ## Une rotation du cauchemar.
+
+      Dans la mise en scène de Léo Cohen-Paperman, l'île de Chypre est représentée par un hôtel "all inclusive", à la fois kitsch et inquiétant.
+
+      Les personnages de la pièce partent à Chypre pour faire la guerre, mais se retrouvent très vite dans une ambiance festive et bon enfant. Le décor est donc centralisé sur l'espace de l'hôtel : d'un côté le couloir, où les passages se répètent et s'entremèlent ; de l'autre, la chambre d'Othello et Desdémone, sorte de "promesse de bonheur" parodique.
+
+      Au fil des scènes, le couloir tourne sur lui même pour faire apparaître la chambre, dans une rotation de plus en plus rapide, qui vire au cauchemar. Peu à peu, Iago prend possession des lieux et procède à un déssossement savemment orchestré du décor. La chambre est dépourvue de ses décorations colorées et débordantes pour laisser place à la froideur du métal. Le lit conjugal devient cerceuil. Enfin, le couloir s'effondre par un ultime soufflé, balayant le public d'un vent brutal et poussiéreux.
+  - type: "image"
+    src: "/img/Othello/othello-shakespeare-leo-cohen-paperman-annesophie-grac-miloud-khetib.jpg"
+    alt: "Rotation du décor"
+    layout: "left"
+    caption: "Rotation du décor à l'aide d'un pivot central."
+  - type: "image"
+    src: "/img/Othello/othello-leo-cohen-paperman-fabien-joubert-gisele-torterolo.jpg"
+    alt: "Fabien Joubert et Gisèle Torterolo"
+    layout: "center"
+  - type: "image"
+    src: "/img/Othello/othello-leo-cohen-paperman-annesophie-grac-scenographie.jpg"
+    alt: "Croquis d'intention"
+    layout: "right"
+    caption: "Croquis d'intention pour la scène finale."
+  - type: "image"
+    src: "/img/Othello/othello-leo-cohen-paperman-shakespeare-miloud-khetib.jpg"
+    alt: "Desdémone sur son lit de mort"
+    layout: "center"
+    caption: "Desdémone sur son lit de mort."
+---
+

@@ -27,6 +27,7 @@ export interface Project {
   title: string;
   subtitle?: string;
   year: number;
+  order: number;
   director: string;
   cover: string;
   description?: string;
@@ -103,6 +104,7 @@ export async function getAllProjects(): Promise<Project[]> {
       title: data.title,
       subtitle: data.subtitle,
       year: data.year,
+      order: data.order ?? 999,
       director: data.director,
       cover: data.cover,
       description: data.description,
@@ -111,8 +113,8 @@ export async function getAllProjects(): Promise<Project[]> {
     });
   }
 
-  // Sort by year (newest first)
-  return projects.sort((a, b) => b.year - a.year);
+  // Sort by order (lower order = appears first)
+  return projects.sort((a, b) => a.order - b.order);
 }
 
 /**

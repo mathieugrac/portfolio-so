@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ProjectImage } from '$lib/data/projects';
+	import type { ProjectImage } from '$lib/content';
 
 	export let images: ProjectImage[];
 
