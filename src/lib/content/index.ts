@@ -1,5 +1,3 @@
-import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
 
@@ -55,28 +53,38 @@ export interface ParcoursYear {
   projects: ParcoursProject[];
 }
 
-// Content directory path
-const CONTENT_DIR = path.join(process.cwd(), "src/content");
+// Import all content files at build time using Vite's import.meta.glob
+const projectFiles = import.meta.glob("/src/content/projects/*.md", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+}) as Record<string, string>;
+
+const siteSettingsFile = import.meta.glob("/src/content/settings/site.yml", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+}) as Record<string, string>;
+
+const experienceFile = import.meta.glob("/src/content/parcours/experience.yml", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+}) as Record<string, string>;
+
+const formationFile = import.meta.glob("/src/content/parcours/formation.yml", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+}) as Record<string, string>;
 
 /**
  * Get all projects from markdown files
  */
 export async function getAllProjects(): Promise<Project[]> {
-  const projectsDir = path.join(CONTENT_DIR, "projects");
-
-  // Check if directory exists
-  if (!fs.existsSync(projectsDir)) {
-    console.warn("Projects directory not found:", projectsDir);
-    return [];
-  }
-
-  const files = fs.readdirSync(projectsDir).filter((f) => f.endsWith(".md"));
-
   const projects: Project[] = [];
 
-  for (const file of files) {
-    const filePath = path.join(projectsDir, file);
-    const content = fs.readFileSync(filePath, "utf-8");
+  for (const [, content] of Object.entries(projectFiles)) {
     const { data } = matter(content);
 
     // Process blocks - convert markdown content in text blocks
@@ -118,14 +126,12 @@ export async function getProjectBySlug(
 }
 
 /**
- * Parse a YAML file (with or without frontmatter)
+ * Parse a YAML file content
  */
-function parseYamlFile<T>(filePath: string): T | null {
-  if (!fs.existsSync(filePath)) {
+function parseYamlContent<T>(content: string): T | null {
+  if (!content) {
     return null;
   }
-
-  const content = fs.readFileSync(filePath, "utf-8");
 
   // If file has frontmatter delimiters, use gray-matter
   if (content.startsWith("---")) {
@@ -134,13 +140,6 @@ function parseYamlFile<T>(filePath: string): T | null {
   }
 
   // Otherwise, parse as pure YAML using gray-matter's engine
-  const parsed = matter(content, {
-    engines: {
-      yaml: (s) => matter.engines.yaml.parse(s) as Record<string, unknown>,
-    },
-  });
-
-  // For pure YAML, content is in the file, so we parse it directly
   return matter.engines.yaml.parse(content) as T;
 }
 
@@ -148,9 +147,8 @@ function parseYamlFile<T>(filePath: string): T | null {
  * Get site settings
  */
 export async function getSiteSettings(): Promise<SiteSettings> {
-  const filePath = path.join(CONTENT_DIR, "settings/site.yml");
-
-  const data = parseYamlFile<SiteSettings>(filePath);
+  const content = Object.values(siteSettingsFile)[0];
+  const data = parseYamlContent<SiteSettings>(content);
 
   if (!data) {
     // Return defaults
@@ -174,15 +172,14 @@ export async function getParcours(): Promise<{
   experience: ParcoursYear[];
   formation: ParcoursYear[];
 }> {
-  const experiencePath = path.join(CONTENT_DIR, "parcours/experience.yml");
-  const formationPath = path.join(CONTENT_DIR, "parcours/formation.yml");
+  const experienceContent = Object.values(experienceFile)[0];
+  const formationContent = Object.values(formationFile)[0];
 
-  const experienceData = parseYamlFile<{ items: ParcoursYear[] }>(experiencePath);
-  const formationData = parseYamlFile<{ items: ParcoursYear[] }>(formationPath);
+  const experienceData = parseYamlContent<{ items: ParcoursYear[] }>(experienceContent);
+  const formationData = parseYamlContent<{ items: ParcoursYear[] }>(formationContent);
 
   return {
     experience: experienceData?.items || [],
     formation: formationData?.items || [],
   };
 }
-
