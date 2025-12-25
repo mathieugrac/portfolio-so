@@ -5,6 +5,7 @@ subtitle: "de William T. Vollmann"
 year: 2017
 director: "Thierry Jolivet"
 cover: "/img/uploads/la-famille-royale-thierry-jolivet-zoe-fauconnet-couverture.jpg"
+pageCover: "/img/uploads/la-famille-royale-thierry-jolivet-julie-recoing-cover.jpg"
 description: "Tyler Brady, détective privé, est engagé par son frère John, un homme d'affaires cynique, pour identifier la mythique Reine des Putes de San Francisco. John veut faire d'elle la vedette d'un casino dédié au sexe virtuel. Tyler se voue corps et âme à une enquête qui l'entraîne dans les bas-fonds de la ville. Il finit par rencontrer la Reine, tombe amoureux d'elle et devient dès lors membre de la Famille Royale, une tribu de prostituées ravagées par le crack, que John et ses sbires vont s'employer à anéantir. Ma collaboration avec Thierry Jolivet sur ce spectacle a duré plus d'un an et a abouti à une cohésion scénique très forte. La Famille Royale se jouera prochainement au Théâtre de la Cité Internationale (octobre 2017)."
 distribution:
   - role: "Mise en scène"

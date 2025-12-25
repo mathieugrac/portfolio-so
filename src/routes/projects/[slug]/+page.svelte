@@ -13,12 +13,12 @@
 <section class="project wrapper space-bottom-large">
   <div class="row space-bottom-large">
     <div class="col">
-      <img class="cover" src={project.cover} alt={project.title} />
+      <img class="cover" src={project.pageCover || project.cover} alt={project.title} />
     </div>
     <div class="col padding space-medium">
-      <h1>{project.subtitle || project.title}</h1>
+      <h1>{project.title}</h1>
       {#if project.subtitle}
-        <h2 class="subtitle">de {project.director}</h2>
+        <h2 class="subtitle">{project.subtitle}</h2>
       {/if}
     </div>
 

@@ -29,6 +29,7 @@ export interface Project {
   year: number;
   director: string;
   cover: string;
+  pageCover?: string;
   description?: string;
   distribution?: DistributionItem[];
   blocks?: ContentBlock[];
@@ -66,11 +67,14 @@ const siteSettingsFile = import.meta.glob("/src/content/settings/site.yml", {
   eager: true,
 }) as Record<string, string>;
 
-const experienceFile = import.meta.glob("/src/content/parcours/experience.yml", {
-  query: "?raw",
-  import: "default",
-  eager: true,
-}) as Record<string, string>;
+const experienceFile = import.meta.glob(
+  "/src/content/parcours/experience.yml",
+  {
+    query: "?raw",
+    import: "default",
+    eager: true,
+  }
+) as Record<string, string>;
 
 const formationFile = import.meta.glob("/src/content/parcours/formation.yml", {
   query: "?raw",
@@ -78,11 +82,14 @@ const formationFile = import.meta.glob("/src/content/parcours/formation.yml", {
   eager: true,
 }) as Record<string, string>;
 
-const projectsOrderFile = import.meta.glob("/src/content/settings/projects-order.yml", {
-  query: "?raw",
-  import: "default",
-  eager: true,
-}) as Record<string, string>;
+const projectsOrderFile = import.meta.glob(
+  "/src/content/settings/projects-order.yml",
+  {
+    query: "?raw",
+    import: "default",
+    eager: true,
+  }
+) as Record<string, string>;
 
 /**
  * Parse a YAML file content
@@ -108,7 +115,7 @@ function parseYamlContent<T>(content: string): T | null {
 function getProjectOrder(): string[] {
   const content = Object.values(projectsOrderFile)[0];
   if (!content) return [];
-  
+
   const data = parseYamlContent<{ order: string[] }>(content);
   return data?.order || [];
 }
@@ -140,6 +147,7 @@ export async function getAllProjects(): Promise<Project[]> {
       year: data.year,
       director: data.director,
       cover: data.cover,
+      pageCover: data.pageCover,
       description: data.description,
       distribution: data.distribution,
       blocks,
@@ -148,23 +156,23 @@ export async function getAllProjects(): Promise<Project[]> {
 
   // Get the order list from centralized file
   const orderList = getProjectOrder();
-  
-  // Sort projects: 
+
+  // Sort projects:
   // - Projects NOT in the order list appear first (new projects)
   // - Then projects in the order list, sorted by their position
   return projects.sort((a, b) => {
     const indexA = orderList.indexOf(a.slug);
     const indexB = orderList.indexOf(b.slug);
-    
+
     // If neither is in the list, sort by year (newest first)
     if (indexA === -1 && indexB === -1) {
       return b.year - a.year;
     }
-    
+
     // Projects not in list come first
     if (indexA === -1) return -1;
     if (indexB === -1) return 1;
-    
+
     // Both in list: sort by position
     return indexA - indexB;
   });
@@ -212,8 +220,12 @@ export async function getParcours(): Promise<{
   const experienceContent = Object.values(experienceFile)[0];
   const formationContent = Object.values(formationFile)[0];
 
-  const experienceData = parseYamlContent<{ items: ParcoursYear[] }>(experienceContent);
-  const formationData = parseYamlContent<{ items: ParcoursYear[] }>(formationContent);
+  const experienceData = parseYamlContent<{ items: ParcoursYear[] }>(
+    experienceContent
+  );
+  const formationData = parseYamlContent<{ items: ParcoursYear[] }>(
+    formationContent
+  );
 
   return {
     experience: experienceData?.items || [],

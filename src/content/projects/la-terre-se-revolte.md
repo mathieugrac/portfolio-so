@@ -5,6 +5,7 @@ subtitle: "Sara Llorca, Omar Youssef Souleimane, Guillaume Clayssen"
 year: 2020
 director: "Sara Llorca"
 cover: "/img/uploads/la-terre-se-revolte-MC93-sara-llorca-lou-de-laage-couverture.jpg"
+pageCover: "/img/uploads/la-terre-se-revolte-sara-llorca-raymond-hosni-carrelage.jpg"
 description: "La Terre se révolte est l'histoire d'une rencontre entre Andréa, étudiante en philosophie et descendante de migrants espagnols ; et Wassim, poète et réfugié syrien. Andréa s'invite chez Wassim à Paris. Commence alors une nuit de questionnements autour de l'exil, de la guerre et de l'héritage familial. En poésie, non sans humour et par la grâce de la danse, s'esquisse une utopie libératrice. Ma rencontre avec Sara a marqué un tournant dans mon parcours de scénographe, puisqu'elle m'a offert une collaboration étroite entre espace scénique et mise en scène. À mon sens, une scénographie est réussie lorsque la mise en scène lui laisse la place d'exister pleinement, à travers une vision commune qui a pour but premier de servir le texte et les acteurs. Nous avons travaillé de nombreux mois sur la conception du décor, sous la direction bienveillante de Maurizio Moretti, chef des ateliers à la MC93 de Bobigny."
 distribution:
   - role: "Mise en scène"

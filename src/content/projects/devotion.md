@@ -5,6 +5,7 @@ subtitle: "dernière offrande aux Dieux morts, Clément Bondu"
 year: 2019
 director: "Clément Bondu"
 cover: "/img/uploads/devotion-cover-3.jpg"
+pageCover: "/img/uploads/Devotion-clement-bondu-scenographie-anne-sophie-grac-avignon-raynaud-de-lage-web.jpg"
 description: "Créé au Gymnase du lycée Saint Joseph dans le cadre de la 73ème édition du Festival d'Avignon, Dévotion - Dernière offrande aux dieux morts a été écrit et mis en scène par Clément Bondu pour accompagner la sortie des 14 comédiens de l'École supérieure d'art dramatique de Paris (ESAD - promotion 2019). Le spectacle nous invite à suivre un récit à histoires multiples en trois actes, dévolus successivement à l'intime, au politique, puis à la fête et au sacré. Il convoque les fantômes de l'Europe et fait du théâtre le lieu de la parole, hors de tout didactisme. Une véritable ménagerie humaine, où la figure du poète est celle du Mal, où l'Idiot dostoïevskien est de retour, où Ophélia conte encore sa mort. Une chambre qui n'est donc pas une chambre mais un monde qui permet au spectateur de découvrir de nouveaux visages et de nouvelles existences sous les cendres de l'époque."
 distribution:
   - role: "Mise en scène"

@@ -5,6 +5,7 @@ subtitle: "de Marguerite Duras"
 year: 2017
 director: "Michel Didym"
 cover: "/img/uploads/Les-eaux-et-forets-michel-didym-scenographie-couverture.jpg"
+pageCover: "/img/uploads/Les-eaux-et-forets-michel-didym-scenographie-annesophie-grac.jpg"
 description: "J'ai travaillé auprès de Michel Didym sur la scénographie des Eaux et Forêts, de Marguerite Duras. La pièce se déroule à Paris dans les années 60. Zigou, le chien de Marguerite-Victoire Sénéchal mord un passant sur un passage clouté. Jeanne Marie Duvivier est témoin. Les deux femmes s'unissent alors pour conduire le chien et le passant à l'Institut Pasteur… Nous avons choisi de représenter une vue de Paris, à la fois réaliste et singulière. À la manière d'une 'carte postale', cette vue est un assemblage graphique, et personnel, de l'imagerie parisienne de ces années là. Elle se réfère aux panoramas des buttes, aux Abbesses ou Belleville, aux kiosques anciens, aux pavés colorés des trottoirs, mais aussi aux murets en pierre de taille que l'on retrouve sur les quais. C'est une sorte de petit Montmartre reconstitué."
 distribution:
   - role: "Mise en scène"

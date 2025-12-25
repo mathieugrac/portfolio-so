@@ -17,6 +17,7 @@ export interface Project {
   year: number;
   director: string;
   cover: string;
+  pageCover?: string;
   description?: string;
   distribution?: DistributionItem[];
   images?: ProjectImage[];

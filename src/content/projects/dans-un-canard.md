@@ -5,6 +5,7 @@ subtitle: "de Jean-Daniel Magnin"
 year: 2017
 director: "Jean-Daniel Magnin"
 cover: "/img/uploads/couverture-emeline-bayart-manuel-le-lievre-quentin-baillot-theatre-rond-point.jpg"
+pageCover: "/img/uploads/emeline-bayart-manuel-le-lievre-quentin-baillot-dans-un-canard.jpg"
 description: "Et vous, seriez-vous prêt à donner votre vie pour votre entreprise ? Dans cette histoire, le stagiaire de la boîte devient, après une série de malentendus, l'homme providentiel puis l'homme à abattre. Ecrite et mise en scène par Jean-Daniel Magnin, cette comédie épingle la catastrophe de la société du travail, portrait narquois du monde professionnel et de ses délires. La création s'est déroulée au Théâtre du Rond Point à Paris, puis au Théâtre du Crochetan en Suisse. Dans un canard s'est ensuite joué au Théâtre des Halles dans le cadre du festival d'Avignon 2017."
 distribution:
   - role: "Mise en scène"

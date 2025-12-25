@@ -66,10 +66,16 @@ collections:
         required: true
 
       - name: "cover"
-        label: "Image de couverture"
+        label: "Image de couverture (carte)"
         widget: "image"
         required: true
-        hint: "Image affichée sur la page d'accueil"
+        hint: "Image affichée sur la page d'accueil (vignette du projet)"
+
+      - name: "pageCover"
+        label: "Image de couverture (page)"
+        widget: "image"
+        required: false
+        hint: "Image affichée en haut de la page du projet. Si vide, l'image carte sera utilisée."
 
       - name: "description"
         label: "Description (À propos)"

@@ -5,6 +5,7 @@ subtitle: "Joséphine Serre"
 year: 2019
 director: "Joséphine Serre"
 cover: "/img/uploads/Data-mossoul-josephine-serre-la-colline-veronique-caye-video-scene-burka.jpg"
+pageCover: "/img/uploads/Data-mossoul-josephine-serre-la-colline-veronique-caye-couverture.jpg"
 description: "Data Mossoul met en scène une ingénieure du web privée d'une partie de sa mémoire, un bibliothécaire collectant les écrits d'anonymes, une archéologue à Mossoul sauvant des tablettes d'argile millénaires des destructions de Daesh et le roi-scribe assyrien Assurbanipal. Évoluant dans ces strates de géographies, d'époques et de civilisations, ces quatre personnages sont liés par la notion de conservation des récits et de transmission de l'Histoire. Avec, en filigrane, la figure de Gilgamesh, roi mythique sumérien dévoré par le désir de trouver l'immortalité et héros du premier récit de l'histoire de l'humanité. Il s'agissait de ma première collaboration avec Joséphine Serre, auteure, metteuse en scène et comédienne du spectacle. La création s'est déroulée au Théâtre National de la Colline (Petit Théâtre) et sera en tournée en 2020."
 distribution:
   - role: "Mise en scène"

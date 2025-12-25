@@ -5,6 +5,7 @@ subtitle: "de Copi"
 year: 2014
 director: "Sacha Todorov"
 cover: "/img/uploads/cover-copi.jpg"
+pageCover: "/img/uploads/l-homosexuel-copi-tns-irina.jpg"
 description: "En 1971, Copi publie L'Homosexuel ou La Difficulté de s'exprimer. C'est l'histoire d'Irina, une «bizarre jeune fille» désirée par tous et qui contemple impassiblement sa propre destruction. Dans la mise en scène de Sacha Todorov, cette pièce était jouée à la suite du Frigo, publiée en 1983. À la manière d'un prologue, le Frigo se déroulait en avant-scène, sur une largeur de 3m par rapport au premier rang de spectateurs. Pas de décor. Seul un tulle blanc séparait ce premier espace de celui de La Difficulté. La transition entre les deux textes se faisait par l'éclairage en contre, presque imperceptible, du tulle. Les spectateurs abandonnaient alors l'esprit joyeux et ludique du Frigo pour entrer dans l'univers cauchemardesque de La Difficulté…"
 distribution:
   - role: "Mise en scène"

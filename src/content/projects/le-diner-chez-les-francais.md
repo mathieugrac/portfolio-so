@@ -5,6 +5,7 @@ subtitle: "Comédie culinaire et politique"
 year: 2023
 director: "Léo Cohen-Paperman"
 cover: "/img/uploads/diner-chez-les-francais-vge-leo-cohen-paperman-couverture.jpg"
+pageCover: "/img/uploads/diner-chez-les-francais-vge-leo-cohen-paperman-theatre-la-criee-cover.jpg"
 description: "Le Dîner chez les Français de Valéry Giscard d'Estaing est le troisième épisode de la série Huit rois (nos Présidents), dont l'ambition est de peindre le portrait théâtral des huit présidents de la Ve République de C. de Gaulle à E. Macron. Pour cette nouvelle collaboration avec Léo, et pour répondre de manière fidèle au texte, nous avons choisi un décor réaliste : une vieille ferme normande dans les années 70. Marcel et Germaine en sont les propriétaires. Leur fille Marie-France, ainsi que son mari Michel et leur fils José sont invités à dîner pour le soir du Nouvel an. Le couple de paysans les accueillent en grande pompe, la table est dressée pour 6 personnes : un \"invité mystère\" est attendu…"
 distribution:
   - role: "Mise en scène"

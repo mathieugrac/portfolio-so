@@ -5,6 +5,7 @@ subtitle: Arance, avoid shooting blacks
 year: 2015
 director: Pietro Marullo
 cover: /img/uploads/cover-arance_pietro-marullo-festival-emulation-2015.jpg
+pageCover: /img/uploads/arance-pietro-marullo-2015-hamado-poubelle.jpg
 description: À travers la figure d'Ahmed, immigré du Ghana qui perdra la vie dans une usine désafectée du sud de l'Italie, ARANCE - avoid shooting blacks (Oranges - évitez de tirer sur les noirs) est un spectacle sur l'esclavagisme moderne et le lien entre les politiques agricoles et celles de l'immigration. Les révoltes des travailleurs immigrés saisonniers, qui éclatent régulièrement en Italie, en Espagne et en Grèce depuis 2004, nous révèlent un nouveau visage de la campagne européenne. Arance est un spectacle d'images, d'impressions et de métaphores, qui nous conduit dans un voyage onirique, au berceau de l'humanité. J'ai travaillé en collaboration avec Pietro Marullo et Bertrand Nodet sur la scénographie et les costumes.
 distribution:
   - role: Mise en scène
