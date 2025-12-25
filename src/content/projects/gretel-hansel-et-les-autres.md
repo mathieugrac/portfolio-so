@@ -1,60 +1,58 @@
 ---
-title: "Gretel, Hansel et les autres"
-slug: "gretel-hansel-et-les-autres"
-subtitle: "de Igor Mendjisky"
+title: Gretel, Hansel et les autres
+slug: gretel-hansel-et-les-autres
+subtitle: de Igor Mendjisky
 year: 2022
-director: "Igor Mendjisky"
-cover: "/img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-couverture.jpg"
-pageCover: "/img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-theatre-de-la-colline.jpg"
-description: "Pour sa première création jeune public, Igor Mendjisky propose une fabrique entre rêve et réalité, dans un décor à hauteur d'enfant, empli de bruitages, d'animations et de musique. Il ancre ainsi le célèbre conte populaire dans le quotidien d'un enfant d'aujourd'hui, projetant qu'il est essentiel, à tout âge, d'attiser sa curiosité à découvrir le monde et de cultiver l'émerveillement. Notre collaboration a donné naissance à un décor magique où toboggan, château fort et cabane dans les bois se conjuguent dans un même espace aussi réaliste que poétique. L'illustration vivante d'une chambre rêvée par tous les enfants..."
+director: Igor Mendjisky
+cover: /img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-couverture.jpg
+pageCover: /img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-theatre-de-la-colline.jpg
+description: Pour sa première création jeune public, Igor Mendjisky propose une fabrique entre rêve et réalité, dans un décor à hauteur d'enfant, empli de bruitages, d'animations et de musique. Il ancre ainsi le célèbre conte populaire dans le quotidien d'un enfant d'aujourd'hui, projetant qu'il est essentiel, à tout âge, d'attiser sa curiosité à découvrir le monde et de cultiver l'émerveillement. Notre collaboration a donné naissance à un décor magique où toboggan, château fort et cabane dans les bois se conjuguent dans un même espace aussi réaliste que poétique. L'illustration vivante d'une chambre rêvée par tous les enfants...
 distribution:
-  - role: "Mise en scène"
-    name: "Igor Mendjisky"
-  - role: "Collaboration artistique"
-    name: "librement inspiré du conte des frères Grimm"
-  - role: "Dramaturgie"
-    name: "Charlotte Farcet"
-  - role: "Scénographie"
-    name: "Anne-Sophie Grac"
-  - role: "Son"
-    name: "Raphaël Charpentier (création musicale)"
-  - role: "Lumières"
-    name: "Stéphane Deschamps"
-  - role: "Création vidéo"
-    name: "Yannick Donet, Cléo Sarrazin (animation)"
-  - role: "Régie générale"
-    name: "Jean-Luc Malavasi (construction décor)"
-  - role: "Avec"
-    name: "Sylvain Debry, Igor Mendjisky, Esther Van Den Driessche"
-  - role: "Crédit photo"
-    name: "Christophe Raynaud de Lage"
-  - role: "Remerciements"
-    name: "En Votre Compagnie"
+  - role: Mise en scène
+    name: Igor Mendjisky
+  - role: Dramaturgie
+    name: Charlotte Farcet
+  - role: Scénographie
+    name: Anne-Sophie Grac
+  - role: Son
+    name: Raphaël Charpentier (création musicale)
+  - role: Lumières
+    name: Stéphane Deschamps
+  - role: Création vidéo
+    name: Yannick Donet, Cléo Sarrazin (animation)
+  - role: Régie générale
+    name: Jean-Luc Malavasi (construction décor)
+  - role: Avec
+    name: Sylvain Debry, Igor Mendjisky, Esther Van Den Driessche
+  - role: Crédit photo
+    name: Christophe Raynaud de Lage
+  - role: Remerciements
+    name: En Votre Compagnie
 blocks:
-  - type: "image"
-    src: "/img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-la-colline-avignon-2022.jpg"
-    alt: "Création à Avignon"
-    layout: "center"
-    caption: "Création à la Chapelle des Pénitents Blancs (Avignon 2022)"
-  - type: "image"
-    src: "/img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-scenographie.jpg"
-    alt: "Maquette de l'espace"
-    layout: "left"
-    caption: "Le décor se compose d'une passerelle accessible par un escalier (à cour) et un toboggan (à jardin). La cabane en tissus et le rideau au centre de la passerelle sont des espaces de projections en jeu. Les vidéos filmées en direct sont également projetées sur des accessoires au plateau. À l'arrière, un grand voile gris acceuille les animations de Cléo Sarrazin, illustrant le parcours d'Hansel et Gretel dans la forêt. Ci-contre une photo de maquette de l'espace."
-  - type: "image"
-    src: "/img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-sylvain-debry.jpg"
-    alt: "Sylvain Debry et projection"
-    layout: "center"
-    caption: "Sylvain Debry (comédien) et une projection de \"Madame la Maire\" sur le voile central (jouée par Esther Van Den Driessche)."
-  - type: "image"
-    src: "/img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-grimm-animation-cleo-sarrazin.jpg"
-    alt: "La licorne"
-    layout: "right"
-    caption: "La licorne (animation de Cléo Sarrazin)"
-  - type: "image"
-    src: "/img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-scenographie-maquette.jpg"
-    alt: "Photo de maquette"
-    layout: "center"
-    caption: "Photo de maquette (étape de travail)"
+  - type: image
+    src: /img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-la-colline-avignon-2022.jpg
+    alt: Création à Avignon
+    layout: center
+    caption: Création à la Chapelle des Pénitents Blancs (Avignon 2022)
+  - type: image
+    src: /img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-scenographie.jpg
+    alt: Maquette de l'espace
+    layout: left
+    caption: Le décor se compose d'une passerelle accessible par un escalier (à cour) et un toboggan (à jardin). La cabane en tissus et le rideau au centre de la passerelle sont des espaces de projections en jeu. Les vidéos filmées en direct sont également projetées sur des accessoires au plateau. À l'arrière, un grand voile gris acceuille les animations de Cléo Sarrazin, illustrant le parcours d'Hansel et Gretel dans la forêt. Ci-contre une photo de maquette de l'espace.
+  - type: image
+    src: /img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-sylvain-debry.jpg
+    alt: Sylvain Debry et projection
+    layout: center
+    caption: Sylvain Debry (comédien) et une projection de "Madame la Maire" sur le voile central (jouée par Esther Van Den Driessche).
+  - type: image
+    src: /img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-grimm-animation-cleo-sarrazin.jpg
+    alt: La licorne
+    layout: right
+    caption: La licorne (animation de Cléo Sarrazin)
+  - type: image
+    src: /img/uploads/gretel-hansel-et-les-autres-igor-mendjisky-anne-sophie-grac-scenographie-maquette.jpg
+    alt: Photo de maquette
+    layout: center
+    caption: Photo de maquette (étape de travail)
 ---
 

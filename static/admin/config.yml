@@ -38,6 +38,12 @@ collections:
         widget: "string"
         required: true
 
+      - name: "subtitle"
+        label: "Sous-titre"
+        widget: "string"
+        required: false
+        hint: "Ex: d'après Goliarda Sapienza"
+
       - name: "slug"
         label: "URL (slug)"
         widget: "string"
@@ -45,12 +51,6 @@ collections:
         pattern:
           ["^[a-z0-9-]+$", "Uniquement lettres minuscules, chiffres et tirets"]
         hint: "Ex: art-de-la-joie (sera l'URL /projects/art-de-la-joie)"
-
-      - name: "subtitle"
-        label: "Sous-titre"
-        widget: "string"
-        required: false
-        hint: "Ex: d'après Goliarda Sapienza"
 
       - name: "year"
         label: "Année"
