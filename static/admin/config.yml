@@ -88,13 +88,50 @@ collections:
         label: "Distribution"
         widget: "list"
         required: false
-        collapsed: true
+        collapsed: false
         summary: "{{fields.role}}: {{fields.name}}"
+        default:
+          - { role: "Mise en scène", name: "" }
+          - { role: "Dramaturgie", name: "" }
+          - { role: "Adaptation", name: "" }
+          - { role: "Traduction", name: "" }
+          - { role: "Scénographie", name: "" }
+          - { role: "Lumières", name: "" }
+          - { role: "Son", name: "" }
+          - { role: "Création vidéo", name: "" }
+          - { role: "Costumes", name: "" }
+          - { role: "Maquillage", name: "" }
+          - { role: "Marionnette", name: "" }
+          - { role: "Collaboration artistique", name: "" }
+          - { role: "Assistant(e) mise en scène", name: "" }
+          - { role: "Avec", name: "" }
+          - { role: "Régie générale", name: "" }
+          - { role: "Construction", name: "" }
+          - { role: "Crédit photo", name: "" }
+          - { role: "Remerciements", name: "" }
         fields:
           - name: "role"
             label: "Rôle"
-            widget: "string"
-            hint: "Ex: Mise en scène, Scénographie, Costumes..."
+            widget: "select"
+            options:
+              - "Mise en scène"
+              - "Dramaturgie"
+              - "Adaptation"
+              - "Traduction"
+              - "Scénographie"
+              - "Lumières"
+              - "Son"
+              - "Création vidéo"
+              - "Costumes"
+              - "Maquillage"
+              - "Marionnette"
+              - "Collaboration artistique"
+              - "Assistant(e) mise en scène"
+              - "Avec"
+              - "Régie générale"
+              - "Construction"
+              - "Crédit photo"
+              - "Remerciements"
           - name: "name"
             label: "Nom(s)"
             widget: "string"
