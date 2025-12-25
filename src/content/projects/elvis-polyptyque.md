@@ -18,7 +18,7 @@ distribution:
     name: "José Victorien"
   - role: "Costumes"
     name: "Gilone Brun"
-  - role: "Régie Générale"
+  - role: "Régie générale"
     name: "Juliette Besançon"
   - role: "Avec"
     name: "Émeline Bayart, Heidi Becker-Babel, Vincent Leenhardt, Dominique Parent, Yan Tassin"

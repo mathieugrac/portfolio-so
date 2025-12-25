@@ -10,7 +10,7 @@ description: "Le Dîner chez les Français de Valéry Giscard d'Estaing est le t
 distribution:
   - role: "Mise en scène"
     name: "Léo Cohen-Paperman"
-  - role: "Collaboration"
+  - role: "Collaboration artistique"
     name: "Esther Moreira (assistante à la mise en scène)"
   - role: "Scénographie"
     name: "Anne-Sophie Grac"
@@ -26,7 +26,7 @@ distribution:
     name: "Pauline Bolcatto (en alternance), Julien Campani (en alternance), Philippe Canales (en alternance), Robin Causse (en alternance), Clovis Fouin (en alternance), Joseph Fourez (en alternance), Pierre Hancisse (en alternance), Grégoire Le Stradic (en alternance), Mathieu Métral (en alternance), Morgane Nairaud (en alternance), Hélène Rencurel (en alternance), Gaia Singer, Lisa Spurio (en alternance)"
   - role: "Crédit photo"
     name: "Valentine Chauvin"
-  - role: "Régie générale et plateau"
+  - role: "Régie générale"
     name: "Thomas Mousseau-Fernandez"
   - role: "Remerciements"
     name: "Ninon Le Chevalier pour son aide précieuse en scénographie et costumes tout au long de cette création"

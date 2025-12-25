@@ -10,7 +10,7 @@ description: "Pour sa première création jeune public, Igor Mendjisky propose u
 distribution:
   - role: "Mise en scène"
     name: "Igor Mendjisky"
-  - role: "Collaboration"
+  - role: "Collaboration artistique"
     name: "librement inspiré du conte des frères Grimm"
   - role: "Dramaturgie"
     name: "Charlotte Farcet"
@@ -22,7 +22,7 @@ distribution:
     name: "Stéphane Deschamps"
   - role: "Création vidéo"
     name: "Yannick Donet, Cléo Sarrazin (animation)"
-  - role: "Régie générale et plateau"
+  - role: "Régie générale"
     name: "Jean-Luc Malavasi (construction décor)"
   - role: "Avec"
     name: "Sylvain Debry, Igor Mendjisky, Esther Van Den Driessche"

@@ -10,7 +10,7 @@ description: "J'ai travaillé en étroite collaboration avec Emeline Bayart pour
 distribution:
   - role: "Mise en scène"
     name: "Émeline Bayart"
-  - role: "Collaboration"
+  - role: "Collaboration artistique"
     name: "Quentin Amiot (assistant à la mise en scène)"
   - role: "Scénographie"
     name: "Anne-Sophie Grac"

@@ -26,7 +26,7 @@ distribution:
     name: "Miloud Khetib (création) puis Emil Abossolo, Clovis Fouin, Anna Fournier, Elsa Grzeszczak, Jean-Michel Guérin, Fabien Joubert, Julien Romelard, Gisèle Torterolo."
   - role: "Crédit photo"
     name: "JAC"
-  - role: "Remerciement"
+  - role: "Remerciements"
     name: "O'Brother Company et la Compagnie des Animaux en Paradis, Laurent Malleval, Sophie Bouilleaux et toute l'équipe des ateliers du TNP"
 blocks:
   - type: "image"

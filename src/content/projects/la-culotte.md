@@ -10,7 +10,7 @@ description: "La Culotte d'Anouilh est une farce écrite en 1978. Dans une époq
 distribution:
   - role: "Mise en scène"
     name: "Émeline Bayart"
-  - role: "Collaboration"
+  - role: "Collaboration artistique"
     name: "Luciana Velocci (assistant à la mise en scène)"
   - role: "Scénographie"
     name: "Anne-Sophie Grac"
@@ -24,7 +24,7 @@ distribution:
     name: "Émeline Bayart, Christophe Canard, Marc Chouppart, Thomas Da Costa, Marc-Henri Lamande, Corinne Martin, Laurent Ménoret, Herrade von Meier"
   - role: "Crédit photo"
     name: "Caroline Moreau"
-  - role: "Régie générale et plateau"
+  - role: "Régie générale"
     name: "Christophe Raynaud de Lage & Matthieu Sandjivy (photos 6 et 13)"
   - role: "Remerciements"
     name: "Jean-Luc Malavasi pour la construction du décor, toute l'équipe du Théâtre des Bouffes du Nord et celle du Théâtre de l'Athénée pour leur accueil chaleureux"

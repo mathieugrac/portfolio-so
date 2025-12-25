@@ -10,7 +10,7 @@ description: "Après une première collaboration sur IVRES, j'embarque de nouvea
 distribution:
   - role: Mise en scène
     name: Ambre Kahan
-  - role: Collaboration
+  - role: Collaboration artistique
     name: Romain Tamisier (assistant à la mise en scène)
   - role: Scénographie
     name: Anne-Sophie Grac
@@ -26,7 +26,7 @@ distribution:
     name: Aymeline Alix, Jean Aloïs Belbachir, Florent Favier, Noémie Gantier, Vanessa Koutseff, Elise Martin, Serge Nicolaï, Léonard Prego, Louise Rieger, Richard Sammut, Romain Tamisier, Sélim Zahrani et les musicien·nes Amandine Robilliard et Romain Thorel
   - role: Crédit photo
     name: Charles Rey et Ida Renouvel au plateau
-  - role: Régie générale et plateau
+  - role: Régie générale
     name: Christophe Raynaud de Lage & Matthieu Sandjivy
   - role: Remerciements
     name: Maurizio Mauretti, Myrtille et Fanny des ateliers de construction, et toute l'équipe d'accueil de la MC93

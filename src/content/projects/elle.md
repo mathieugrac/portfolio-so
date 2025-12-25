@@ -20,7 +20,7 @@ distribution:
     name: "Elissa Aloula, Floriant Choquart, Mathias Hejnar"
   - role: "Crédit photo"
     name: "Anne Beaugé, Mathieu Grac"
-  - role: "Remerciement"
+  - role: "Remerciements"
     name: "avec le soutien des ateliers de construction et de couture du Théâtre National de Strasbourg, du Jeune Théâtre National, et du collectif Curry Vavart"
 blocks:
   - type: "image"

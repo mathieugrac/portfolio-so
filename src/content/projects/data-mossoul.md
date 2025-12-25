@@ -10,7 +10,7 @@ description: "Data Mossoul met en scène une ingénieure du web privée d'une pa
 distribution:
   - role: "Mise en scène"
     name: "Joséphine Serre"
-  - role: "Collaboration Artistique"
+  - role: "Collaboration artistique"
     name: "Pauline Ribat"
   - role: "Scénographie"
     name: "Anne-Sophie Grac"
@@ -24,7 +24,7 @@ distribution:
     name: "Guillaume Compiano, Camille Durand‑Tovar, Elsa Granat, Estelle Meyer, Édith Proust, Aurélien Rondeau, Joséphine Serre"
   - role: "Crédit photo"
     name: "Véronique Caye"
-  - role: "Remerciement"
+  - role: "Remerciements"
     name: "Pierre-Louis Laugérias (assistant mise en scène), Lou Chenivesse (assistante scénographie) et Jovita Negro (stagiaire costumes)."
   - role: "Construction"
     name: "Didier Kuhn et Mickaël Franki / Atelier de la Colline"

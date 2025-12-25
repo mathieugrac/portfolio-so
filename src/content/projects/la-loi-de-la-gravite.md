@@ -20,7 +20,7 @@ distribution:
     name: "Quentin Laugier et Alison Valence"
   - role: "Crédit photo"
     name: "Christophe Péan"
-  - role: "Remerciement"
+  - role: "Remerciements"
     name: "Equipe technique et artistique du festival des Francophonies, Limoges"
 blocks:
   - type: "image"

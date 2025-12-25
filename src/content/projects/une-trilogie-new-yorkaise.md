@@ -19,7 +19,7 @@ distribution:
     name: Anne-Sophie Grac
   - role: Lumières
     name: Stéphane Deschamps
-  - role: Création son
+  - role: Son
     name: Raphaël Charpentier
   - role: Costumes
     name: Emmanuelle Thomas
@@ -27,9 +27,9 @@ distribution:
     name: Yannick Donet, Cléo Sarrazin (animation)
   - role: Avec
     name: Gabriel Dufay, Pascal Gregorry, Rafaela Jirkovsky, Felicien Juttner, Ophélia Kolb, Igor Mendjisky, Tibault Perrenoud, Lahcen Razzougui
-  - role: Crédit Photo
+  - role: Crédit photo
     name: Christophe Raynaud de Lage
-  - role: Régie générale et plateau
+  - role: Régie générale
     name: Jean-Luc Malavasi (construction décor)
   - role: Remerciements
     name: En Votre Compagnie

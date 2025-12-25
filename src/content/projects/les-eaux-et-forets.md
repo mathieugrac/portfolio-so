@@ -20,7 +20,7 @@ distribution:
     name: "Olivier Irthum"
   - role: "Costumes"
     name: "Christine Brottes assistée de Éléonore Daniaud"
-  - role: "Régie Générale"
+  - role: "Régie générale"
     name: "Colas Murer"
   - role: "Avec"
     name: "Brigitte Catillon, Catherine Matisse, Charlie Nelson et le chien Zigou"

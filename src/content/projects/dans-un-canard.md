@@ -10,7 +10,7 @@ description: "Et vous, seriez-vous prêt à donner votre vie pour votre entrepri
 distribution:
   - role: "Mise en scène"
     name: "Jean-Daniel Magnin"
-  - role: "Assistant Mise en scène"
+  - role: "Assistant(e) mise en scène"
     name: "Maryam Khakipour"
   - role: "Scénographie"
     name: "Anne-Sophie Grac"
@@ -22,7 +22,7 @@ distribution:
     name: "Quentin Baillot, Emeline Bayart, Eric Berger, Manuel Le Lièvre"
   - role: "Crédit photo"
     name: "Raphaël Gaillarde"
-  - role: "Remerciement"
+  - role: "Remerciements"
     name: "Claude Chaussignand et Amandine Livet, Alexis Tolmatchev, les ateliers du DOC."
 blocks:
   - type: "image"

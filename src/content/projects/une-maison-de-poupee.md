@@ -20,7 +20,7 @@ distribution:
     name: "Lucrèce Carmignac, Romain Cottard, Jeanne Favre, Antonin Meyer Esquerré, Benjamin Tholozan"
   - role: "Crédit photo"
     name: "Marco Zavagno, Claire Gondrexon"
-  - role: "Remerciement"
+  - role: "Remerciements"
     name: "Collectif Curry Vavart"
 blocks:
   - type: "image"

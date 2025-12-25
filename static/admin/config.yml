@@ -101,6 +101,7 @@ collections:
           - { role: "Création vidéo", name: "" }
           - { role: "Costumes", name: "" }
           - { role: "Maquillage", name: "" }
+          - { role: "Perruque", name: "" }
           - { role: "Marionnette", name: "" }
           - { role: "Collaboration artistique", name: "" }
           - { role: "Assistant(e) mise en scène", name: "" }
@@ -124,6 +125,7 @@ collections:
               - "Création vidéo"
               - "Costumes"
               - "Maquillage"
+              - "Perruque"
               - "Marionnette"
               - "Collaboration artistique"
               - "Assistant(e) mise en scène"
