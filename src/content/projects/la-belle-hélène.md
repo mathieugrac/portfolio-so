@@ -26,6 +26,48 @@ distribution:
     name: Orchestre et Chœur de l’Opéra de Toulon
   - role: Avec
     name: Anne-Lise Polchlopek, Filipe Manu, Charlie Guillemin , Jean Kristof Bouton, Joe Bertili, Brenda Poupard, Mathys Lagier, Fabien Hyon, Timothée Varon, Héloïse Poulet, Charlotte Bozzi, Axelle Saint-Cirel
-blocks: []
+blocks:
+  - type: image
+    src: /img/uploads/la-belle-helene-offenbach-quentin-gibelin-alice-masson-anne-sophie-grac-opera-de-toulon-jean-kristof-bouton.jpg
+    alt: Jean-Kristof Bouton dans le rôle d'Agamemnon.
+    layout: center
+    caption: Jean-Kristof Bouton dans le rôle d'Agamemnon.
+  - type: image
+    src: /img/uploads/la-belle-helene-offenbach-quentin-gibelin-alice-masson-anne-sophie-grac-sceno-image-.jpg
+    alt: Joé Bertili (Calchas) et Filipe Manu (Pâris)
+    layout: left
+    caption: Joé Bertili (Calchas) et Filipe Manu (Pâris)
+  - type: image
+    src: /img/uploads/la-belle-helene-offenbach-quentin-gibelin-alice-masson-anne-sophie-grac-maquette-scenographie.jpg
+    alt: Maquette
+    layout: center
+    caption: ''
+  - type: text
+    content: 'Maquette du décor. Pour les Actes I et II, nous sommes à l’intérieur du palais avec au centre : la chambre de la Belle Hélène, faisant référence au coquillage de Vénus. Cet élément mobile s''ouvre et découvre un nid d''amour rouge et étincelant. À l''entracte, le décor se "retourne". Nous sommes maintenant derrière le palais, au bord d''une plage souillée par le temps et la pollution.'
+  - type: image
+    src: /img/uploads/la-belle-helene-offenbach-quentin-gibelin-alice-masson-anne-sophie-grac-anne-lise-polchlopek-filipe-manu.jpg
+    alt: Anne-Lise Polchlopek dans le rôle de la Belle Hélène et Filipe Manu dans celui de l'amant Pâris.
+    layout: left
+    caption: Anne-Lise Polchlopek dans le rôle de la Belle Hélène et Filipe Manu dans celui de l'amant Pâris.
+  - type: image
+    src: /img/uploads/la-belle-helene-offenbach-quentin-gibelin-alice-masson-anne-sophie-grac-opera-de-rouen.jpg
+    alt: Le coquillage de la Reine.
+    layout: right
+    caption: Le coquillage de la Reine.
+  - type: image
+    src: /img/uploads/la-belle-helene-offenbach-quentin-gibelin-alice-masson-anne-sophie-grac-sceno-.jpg
+    alt: Opéra de toulon la belle hélène
+    layout: center
+    caption: ''
+  - type: image
+    src: /img/uploads/la-belle-helene-offenbach-quentin-gibelin-alice-masson-anne-sophie-grac-anne-lise-polchlopek.jpg
+    alt: Filipe Manu Opéra de Rouen
+    layout: left
+    caption: ''
+  - type: image
+    src: /img/uploads/la-belle-helene-offenbach-quentin-gibelin-alice-masson-anne-sophie-grac-rouen-filipe-manu.jpg
+    alt: LGBT opéra Felipe Manu
+    layout: center
+    caption: ''
 ---
 
