@@ -56,8 +56,33 @@ blocks:
     content: |-
       **Principe décor**
 
-      Le décor est constitué d'une "cage" en métal de 6mx6mx5m de haut, dont l’intérieur se dévoile à l'ouverture d'un double rideau sur patience. 
+      Le décor est constitué d'une "cage" en métal de 6mx6mx5m de haut, dont l’intérieur se dévoile à l'ouverture d'un double rideau sur patience.
 
       À la manière d'une "boîte à jeu", l'espace scénique évoque successivement : la scène d'un comédy club, le bureau de l’Élysée et un tableau poétique de la "Marianne". Notre enjeu était de donner à voir un univers propre à chaque protagoniste, tout en les incluant dans un même espace politique : celui du "France Comedy Club".
+  - type: image
+    src: /img/uploads/sarkhollande-leo-cohen-paperman-elysee-scenographie-anne-sophie-grac.jpg
+    alt: Francois Hollande dans le bureau de l'elysée
+    layout: left
+    caption: À l'ouverture, découverte du bureau (bancale) de François Hollande.
+  - type: image
+    src: /img/uploads/sarkhollande-comedie-identitaire-valentin-boraud-scenographie-gael-richard.jpg
+    alt: Valentin Boraud
+    layout: right
+    caption: ''
+  - type: image
+    src: /img/uploads/sarkhollande-leo-cohen-paperman-anne-sophie-grac-valentin-boraud-hollande.jpg
+    alt: valentin Boraud compagnie les animaux en paradis
+    layout: left
+    caption: ''
+  - type: image
+    src: /img/uploads/sarkhollande-leo-cohen-paperman-les-animaux-en-paradis-ada-harb.jpg
+    alt: Ada Harb
+    layout: center
+    caption: Ada Harb dans le rôle de Leïla Merabet
+  - type: image
+    src: /img/uploads/sarkhollande-leo-cohen-paperman-valentine-chauvin-ada-harb.jpg
+    alt: Décor anne sophie grac
+    layout: center
+    caption: ''
 ---
 
