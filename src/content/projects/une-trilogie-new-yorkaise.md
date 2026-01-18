@@ -32,7 +32,17 @@ distribution:
     name: Jean-Luc Malavasi (construction décor)
   - role: Remerciements
     name: En Votre Compagnie
-blocks: []
+blocks:
+  - type: image
+    src: /img/uploads/igor-mendjisky-scenographie-anne-sophie-grac.jpg
+    alt: "Le décor se compose d'une passerelle en métal sur laquelle repose un grand mur de fenêtres, donnant un point de vue sur l'exterieur (projections vidéos de la ville de New-York). Pour y accéder : un ascenceur manuel à jardin et une échelle à cour. Inspiré des chambres New-Yorkaises confinées et accessibles par l'exterieur, un module à deux étages sur roulettes permet également d'accéder à la passerelle au lointain. Cet espace, ainsi que deux châssis-portes mobiles, permettent une modularité selon les scènes et créaient un univers labyrinthique."
+    layout: center
+    caption: ''
+  - type: image
+    src: /img/uploads/igor-mendjisky-pascal-gregory-igor-mendjisky-pascal-gregory-igor-mendjisky-gabriel-dufait-scenographie.jpg
+    alt: Igor Mendjisly (en haut), Lahcen Razzougui et Tibault Perrenoud (en bas).
+    layout: left
+    caption: Igor Mendjisly (en haut), Lahcen Razzougui et Tibault Perrenoud (en bas).
 order: 1
 ---
 
