@@ -25,7 +25,7 @@ distribution:
   - role: Création vidéo
     name: Yannick Donet, Cléo Sarrazin (animation)
   - role: Avec
-    name: Gabriel Dufay, Pascal Gregorry, Rafaela Jirkovsky, Felicien Juttner, Ophélia Kolb, Igor Mendjisky, Tibault Perrenoud, Lahcen Razzougui
+    name: Gabriel Dufay, Pascal Greggory, Rafaela Jirkovsky, Felicien Juttner, Ophélia Kolb, Igor Mendjisky, Tibault Perrenoud, Lahcen Razzougui
   - role: Crédit Photo
     name: Christophe Raynaud de Lage
   - role: Régie générale et plateau
