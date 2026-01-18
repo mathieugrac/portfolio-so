@@ -9,7 +9,23 @@ description: |-
   Une fois de plus, Offenbach et ses librettistes se servent des mythes de l'Antiquité grecque à la fois pour parodier les codes du grand opéra romantique et dénoncer les travers de la société. Avec La Belle Hélène, le compositeur au sommet de son art, nous entraîne dans un univers d'une irrésistible drôlerie mais aussi subversif et d'une grande modernité.
 
   Cette nouvelle production est signée par deux jeunes et talentueux metteur.e.s en scène, Alice Masson et Quentin Gibelin, accompagnés de Romain Dumas à la direction musicale.
-distribution: []
+distribution:
+  - role: Mise en scène
+    name: Alice Masson et Quentin Gibelin
+  - role: Direction musicale
+    name: Romain Dumas
+  - role: Chorégraphie
+    name: Alice Masson
+  - role: Scénographie
+    name: Anne-Sophie Grac
+  - role: Costumes
+    name: Quentin Gibelin
+  - role: Lumières
+    name: Clémentine Pradier
+  - role: Chant
+    name: Orchestre et Chœur de l’Opéra de Toulon
+  - role: Avec
+    name: Anne-Lise Polchlopek, Filipe Manu, Charlie Guillemin , Jean Kristof Bouton, Joe Bertili, Brenda Poupard, Mathys Lagier, Fabien Hyon, Timothée Varon, Héloïse Poulet, Charlotte Bozzi, Axelle Saint-Cirel
 blocks: []
 ---
 
