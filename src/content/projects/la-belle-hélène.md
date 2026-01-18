@@ -44,7 +44,7 @@ blocks:
     caption: ''
   - type: text
     content: |-
-      **Maquette du décor. **
+      \*\*Maquette du décor. \*\*
 
       Pour les Actes I et II, nous sommes à l’intérieur du palais avec au centre : la chambre de la Belle Hélène, faisant référence au coquillage de Vénus. Cet élément mobile s'ouvre et découvre un nid d'amour rouge et étincelant. À l'entracte, le décor se "retourne". Nous sommes maintenant derrière le palais, au bord d'une plage souillée par le temps et la pollution.
   - type: image
@@ -71,6 +71,6 @@ blocks:
     src: /img/uploads/la-belle-helene-offenbach-quentin-gibelin-alice-masson-anne-sophie-grac-rouen-filipe-manu.jpg
     alt: LGBT opéra Felipe Manu
     layout: center
-    caption: ''
+    caption: Air final de Pâris.
 ---
 
