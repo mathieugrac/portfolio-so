@@ -1,7 +1,7 @@
 ---
 title: La Difficulté de s'exprimer
 slug: la-difficulte-de-s-exprimer
-subtitle: La Difficulté de s'exprimer
+subtitle: De Copi
 year: 2014
 director: De Copi
 cover: /img/uploads/cover-copi.jpg
