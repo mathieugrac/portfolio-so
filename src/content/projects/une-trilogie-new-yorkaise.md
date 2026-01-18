@@ -48,6 +48,21 @@ blocks:
     alt: Igor Mendjisly (en haut), Lahcen Razzougui et Tibault Perrenoud (en bas).
     layout: left
     caption: Igor Mendjisly (en haut), Lahcen Razzougui et Tibault Perrenoud (en bas).
+  - type: image
+    src: /img/uploads/paul-auster-une-trilogie-new-yorkaise-igor-mendjisky-maquette-scenographie-anne-sophie-grac.jpg
+    alt: Maquette scénographie Anne-Sophie grac
+    layout: center
+    caption: Maquette du décor (étape)
+  - type: image
+    src: /img/uploads/igor-mendjisky-pascal-gregory-igor-mendjisky-pascal-gregory-igor-mendjisky-pascal-gregory-tibault-perrenoud-yannick-donnet.jpg
+    alt: Yannick Donnet vidéo
+    layout: right
+    caption: ''
+  - type: image
+    src: /img/uploads/igor-mendjisky-pascal-gregory-igor-mendjisky-pascal-gregory-igor-mendjisky-pascal-gregory.jpg
+    alt: Pascal Greggory
+    layout: left
+    caption: Pascal Greggory dans le rôle de Paul Auster.
 order: 1
 ---
 
