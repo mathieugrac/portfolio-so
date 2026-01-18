@@ -36,6 +36,28 @@ distribution:
     name: Compagnie des Animaux en paradis
   - role: Credit photos
     name: Valentine Chauvin
-blocks: []
+blocks:
+  - type: image
+    src: /img/uploads/sarkhollande-leo-cohen-paperman-les-animaux-clovis-fouin.jpg
+    alt: Clovis Fouin comédien
+    layout: left
+    caption: Clovis Fouin dans le rôle de N.Sarkosy
+  - type: image
+    src: /img/uploads/20251002_AEP_Sarkholland_01150_presse_©ValentineChauvin.jpg
+    alt: Valentin Boraud comédien
+    layout: right
+    caption: Valentin Boraud dans le rôle de F.Hollande
+  - type: image
+    src: /img/uploads/sarkhollande-leo-cohen-paperman-elysee-scenographie-anne-sophie-grac-sketchup-decor.jpg
+    alt: maquette sketchup scenographie
+    layout: center
+    caption: ''
+  - type: text
+    content: |-
+      **Principe décor**
+
+      Le décor est constitué d'une "cage" en métal de 6mx6mx5m de haut, dont l’intérieur se dévoile à l'ouverture d'un double rideau sur patience. 
+
+      À la manière d'une "boîte à jeu", l'espace scénique évoque successivement : la scène d'un comédy club, le bureau de l’Élysée et un tableau poétique de la "Marianne". Notre enjeu était de donner à voir un univers propre à chaque protagoniste, tout en les incluant dans un même espace politique : celui du "France Comedy Club".
 ---
 
