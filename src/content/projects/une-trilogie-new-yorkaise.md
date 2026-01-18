@@ -63,6 +63,21 @@ blocks:
     alt: Pascal Greggory
     layout: left
     caption: Pascal Greggory dans le rôle de Paul Auster.
+  - type: image
+    src: /img/uploads/igor-mendjisky-paul-auster-theatre-de-la-ville.jpg
+    alt: Pascal Greggory
+    layout: center
+    caption: ''
+  - type: image
+    src: /img/uploads/igor-mendjisky-paul-auster-felicien-juttner.jpg
+    alt: Félicien Juttner acteur
+    layout: left
+    caption: Félicien Juttner dans le rôle de Bleu.
+  - type: image
+    src: /img/uploads/igor-mendjisky-ophelia-kobb-grac-anne-sophie.jpg
+    alt: Ophélia Kobb
+    layout: center
+    caption: Ophélia Kobb, Igor Mendjisky, Félicien Juttner, Rafaela Jirkovsky et  Lahcen Razzougui
 order: 1
 ---
 
