@@ -26,6 +26,8 @@ distribution:
     name: Orchestre et Chœur de l’Opéra de Toulon
   - role: Avec
     name: Anne-Lise Polchlopek, Filipe Manu, Charlie Guillemin , Jean Kristof Bouton, Joe Bertili, Brenda Poupard, Mathys Lagier, Fabien Hyon, Timothée Varon, Héloïse Poulet, Charlotte Bozzi, Axelle Saint-Cirel
+  - role: Crédit photo
+    name: Aurélien Kirchner
 blocks:
   - type: image
     src: /img/uploads/la-belle-helene-offenbach-quentin-gibelin-alice-masson-anne-sophie-grac-opera-de-toulon-jean-kristof-bouton.jpg
