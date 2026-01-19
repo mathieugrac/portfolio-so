@@ -3,7 +3,7 @@ title: SARKHOLLANDE
 slug: sarkhollande-animaux-en-paradis
 subtitle: SARKHOLLANDE (comédie identitaire)
 year: 2025
-director: de Julien Campani, Léo Cohen-Paperman et Clovis Fouin
+director: Léo Cohen-Paperman
 cover: /img/uploads/sarkhollande-leo-cohen-paperman-elysee-scenographie-anne-sophie-grac-valentin-boraud-cover.jpg
 description: |-
   Après "Génération Mitterrand" et "Un dîner chez les Français", ma précieuse collaboration avec Léo Cohen-Paperman continue pour la suite de la série "Huits Rois (nos Présidents)"...
@@ -51,7 +51,7 @@ blocks:
     src: /img/uploads/sarkhollande-leo-cohen-paperman-elysee-scenographie-anne-sophie-grac-sketchup-decor.jpg
     alt: maquette sketchup scenographie
     layout: center
-    caption: ''
+    caption: Vues 3D du décor
   - type: text
     content: |-
       **Principe décor**
