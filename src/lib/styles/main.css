@@ -829,7 +829,8 @@ ul.submenu {
   position: absolute;
   width: 200px;
   left: -60px;
-  max-height: none;
+  max-height: 510px;
+  overflow-y: auto;
   background-color: #222;
   z-index: 10;
   padding: 10px 0;
