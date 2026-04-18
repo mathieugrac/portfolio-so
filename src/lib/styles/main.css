@@ -467,7 +467,9 @@ img {
 }
 
 .cover {
-  min-height: 200px;
+  width: 100%;
+  aspect-ratio: 1600 / 756;
+  object-fit: cover;
   background-color: #222;
 }
 
@@ -704,17 +706,9 @@ li a:hover {
 .item-project-image {
   transition: opacity 0.3s;
   opacity: 0.6;
-  position: relative;
-  left: -30%;
-  height: 300px;
-  width: auto;
-}
-@media screen and (min-width: 500px) {
-  .item-project-image {
-    height: auto;
-    width: 100%;
-    left: 0;
-  }
+  width: 100%;
+  aspect-ratio: 1600 / 756;
+  object-fit: cover;
 }
 
 .item-project-title {
@@ -916,7 +910,7 @@ ul.submenu li a {
     font-size: 32px;
   }
 }
-.intro img {
+.intro img, .parcours img {
   width: 160px;
   height: 160px;
   margin-bottom: 160px;
