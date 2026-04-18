@@ -1,8 +1,6 @@
-# Ordre d'affichage des projets
-# Glissez-déposez pour réorganiser (le premier = affiché en haut)
-# Les nouveaux projets non listés apparaîtront automatiquement en premier
-
 order:
+  - la-belle-helene
+  - sarkhollande-animaux-en-paradis
   - une-trilogie-new-yorkaise
   - art-de-la-joie
   - le-diner-chez-les-francais
@@ -26,4 +24,5 @@ order:
   - arance
   - elvis-polyptyque
   - le-vice-consul
+  - test-abc
   - la-difficulte-de-s-exprimer

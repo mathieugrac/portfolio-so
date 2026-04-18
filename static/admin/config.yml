@@ -114,6 +114,7 @@ collections:
           - name: "role"
             label: "Rôle"
             widget: "select"
+            required: false
             options:
               - "Mise en scène"
               - "Dramaturgie"
@@ -137,6 +138,7 @@ collections:
           - name: "name"
             label: "Nom(s)"
             widget: "string"
+            required: false
 
       # Content blocks (the magic!)
       - name: "blocks"
@@ -217,6 +219,7 @@ collections:
             label: "Ordre d'affichage"
             widget: "list"
             label_singular: "Projet"
+            add_to_top: true
             hint: "Glissez-déposez pour réorganiser. Le premier projet de la liste apparaît en haut de la page d'accueil. Les nouveaux projets non listés apparaîtront automatiquement en premier."
             field:
               name: "slug"
