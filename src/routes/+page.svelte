@@ -2,7 +2,8 @@
   import ProjectCard from "$lib/components/ProjectCard.svelte";
 
   let { data } = $props();
-  const { projects, settings } = data;
+  const projects = $derived(data.projects);
+  const settings = $derived(data.settings);
 </script>
 
 <svelte:head>

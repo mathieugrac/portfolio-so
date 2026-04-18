@@ -148,7 +148,9 @@ export async function getAllProjects(): Promise<Project[]> {
       director: data.director,
       cover: data.cover,
       pageCover: data.pageCover,
-      description: data.description,
+      description: data.description
+        ? (marked.parse(data.description) as string)
+        : undefined,
       distribution: data.distribution,
       blocks,
     });

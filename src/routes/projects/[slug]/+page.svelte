@@ -3,7 +3,8 @@
   import BlockRenderer from "$lib/components/BlockRenderer.svelte";
 
   let { data } = $props();
-  const { project, settings } = data;
+  const project = $derived(data.project);
+  const settings = $derived(data.settings);
 </script>
 
 <svelte:head>
@@ -25,7 +26,7 @@
     {#if project.description}
       <div class="col four-to-six padding">
         <h3 class="space-bottom-small">À propos</h3>
-        <p class="justify">{project.description}</p>
+        <div class="justify">{@html project.description}</div>
       </div>
     {/if}
 

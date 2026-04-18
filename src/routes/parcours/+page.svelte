@@ -1,6 +1,8 @@
 <script lang="ts">
   let { data } = $props();
-  const { settings, experience, formation } = data;
+  const settings = $derived(data.settings);
+  const experience = $derived(data.experience);
+  const formation = $derived(data.formation);
 </script>
 
 <svelte:head>

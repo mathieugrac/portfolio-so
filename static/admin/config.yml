@@ -154,11 +154,10 @@ collections:
                 label: "Image"
                 widget: "image"
                 required: true
-              - name: "alt"
-                label: "Texte alternatif"
+              - name: "caption"
+                label: "Légende"
                 widget: "string"
-                required: true
-                hint: "Description de l'image pour l'accessibilité"
+                required: false
               - name: "layout"
                 label: "Disposition"
                 widget: "select"
@@ -167,10 +166,11 @@ collections:
                   - { label: "Pleine largeur", value: "center" }
                   - { label: "À gauche", value: "left" }
                   - { label: "À droite", value: "right" }
-              - name: "caption"
-                label: "Légende"
+              - name: "alt"
+                label: "Texte alternatif"
                 widget: "string"
-                required: false
+                required: true
+                hint: "Description de l'image pour l'accessibilité"
 
           # Text block
           - name: "text"
