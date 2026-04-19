@@ -1,10 +1,11 @@
 ---
 title: SARKHOLLANDE
-slug: sarkhollande-animaux-en-paradis
 subtitle: SARKHOLLANDE (comédie identitaire)
+slug: sarkhollande-animaux-en-paradis
 year: 2025
 director: Léo Cohen-Paperman
 cover: /img/uploads/sarkhollande-leo-cohen-paperman-elysee-scenographie-anne-sophie-grac-valentin-boraud-cover.jpg
+pageCover: /img/uploads/sarkhollande-leo-cohen-paperman-elysee-scenographie-clovis-fouin-nicolas-sarkosy-comedie-haut.jpg
 description: |-
   Après "Génération Mitterrand" et "Un dîner chez les Français", ma précieuse collaboration avec Léo Cohen-Paperman continue pour la suite de la série "Huits Rois (nos Présidents)"...
 
@@ -39,19 +40,19 @@ distribution:
 blocks:
   - type: image
     src: /img/uploads/sarkhollande-leo-cohen-paperman-les-animaux-clovis-fouin.jpg
-    alt: Clovis Fouin comédien
-    layout: left
     caption: Clovis Fouin dans le rôle de N.Sarkosy
+    layout: left
+    alt: Clovis Fouin comédien
   - type: image
     src: /img/uploads/20251002_AEP_Sarkholland_01150_presse_©ValentineChauvin.jpg
-    alt: Valentin Boraud comédien
-    layout: right
     caption: Valentin Boraud dans le rôle de F.Hollande
+    layout: right
+    alt: Valentin Boraud comédien
   - type: image
     src: /img/uploads/sarkhollande-leo-cohen-paperman-elysee-scenographie-anne-sophie-grac-sketchup-decor.jpg
-    alt: maquette sketchup scenographie
-    layout: center
     caption: Vues 3D du décor
+    layout: center
+    alt: maquette sketchup scenographie
   - type: text
     content: |-
       **Principe décor**
@@ -61,28 +62,27 @@ blocks:
       À la manière d'une "boîte à jeu", l'espace scénique évoque successivement : la scène d'un comédy club, le bureau de l’Élysée et un tableau poétique de la "Marianne". Notre enjeu était de donner à voir un univers propre à chaque protagoniste, tout en les incluant dans un même espace politique : celui du "France Comedy Club".
   - type: image
     src: /img/uploads/sarkhollande-leo-cohen-paperman-elysee-scenographie-anne-sophie-grac.jpg
-    alt: Francois Hollande dans le bureau de l'elysée
-    layout: left
     caption: À l'ouverture, découverte du bureau (bancale) de François Hollande.
+    layout: left
+    alt: Francois Hollande dans le bureau de l'elysée
   - type: image
     src: /img/uploads/sarkhollande-comedie-identitaire-valentin-boraud-scenographie-gael-richard.jpg
-    alt: Valentin Boraud
-    layout: right
     caption: ''
+    layout: right
+    alt: Valentin Boraud
   - type: image
     src: /img/uploads/sarkhollande-leo-cohen-paperman-anne-sophie-grac-valentin-boraud-hollande.jpg
-    alt: valentin Boraud compagnie les animaux en paradis
-    layout: left
     caption: ''
+    layout: left
+    alt: valentin Boraud compagnie les animaux en paradis
   - type: image
     src: /img/uploads/sarkhollande-leo-cohen-paperman-les-animaux-en-paradis-ada-harb.jpg
-    alt: Ada Harb
-    layout: center
     caption: Ada Harb dans le rôle de Leïla Merabet
+    layout: center
+    alt: Ada Harb
   - type: image
     src: /img/uploads/sarkhollande-leo-cohen-paperman-valentine-chauvin-ada-harb.jpg
-    alt: Décor anne sophie grac
-    layout: center
     caption: ''
+    layout: center
+    alt: Décor anne sophie grac
 ---
-
