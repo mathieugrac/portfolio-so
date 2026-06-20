@@ -61,15 +61,7 @@ blocks:
     alt: Destins liés Big Image Systems
   - type: text
     content: |-
-      Le décor se compose de neuf panneaux suspendus de quatre mètres sur cinq, accueillant les magnifiques toiles de Merlin Riand, jeune peintre animalier. L'ensemble représente un ciel nuageux qui se transforme au cours de la représentation : de nouvelles peintures de chevaux apparaissent, racontant ainsi la relation entre l'homme et le cheval à travers les siècles, en  écho au texte de Jérôme Garcin. La prouesse et la magie de ces apparitions  cadres possèdent un système de rétro-éclairage par leds, permettant l'apparition instantanée des peintures (double impression) et surprenant ainsi les spectateurs avec de nouvelles peintures. Les trois panneaux du haut sont motorisés et évoluent de haut en bas, au rythme du récit et des tableaux visuels. Les deux panneaux du fond sont fixés sur patience pour permettre les entrées et sorties. masquent ou révèlent la piste, et apportent une véritable profondeur scénographique. 
+      Le décor se compose de neuf panneaux suspendus de quatre mètres sur cinq, accueillant les magnifiques toiles de Merlin Riand, jeune peintre animalier. Chaque panneau est doté d'un système de rétro-éclairage par leds, permettant l'apparition instantanée de nouvelles images. L'ensemble représente un ciel nuageux qui se transforme ainsi au cours de la représentation : des portraits de chevaux apparaissent, racontant ainsi la relation entre l'homme et le cheval à travers les siècles, en écho au texte de Jérôme Garcin. La prouesse technique et la magie de ces apparitions surprenant ainsi les spectateurs avec de nouvelles peintures. Les trois panneaux du haut sont motorisés et évoluent de haut en bas, au rythme du récit et des tableaux visuels. Les deux panneaux du fond sont fixés sur patience pour permettre les entrées et sorties. masquent ou révèlent la piste, et apportent une véritable profondeur scénographique. 
 
-      Les 9 panneaux sont composés d’un caisson en aluminium acceuillant un système de rétro-éclairage par leds. À la face, une toile en coton imprimée est tendue sur chaque cadre et propose un univers
-
-      poétique, variable au cours de la représentation.
-
-      Au départ, l’ensemble des panneaux forment un grand ciel clair puis, peu à peu, des illustrations de
-
-      chevaux apparaissent, racontant le lien entre l’Homme et le cheval à travers les siècles.
-
-      Selon les contraintes propres à chaque lieu, l’ensemble du dispositif reste modulable avec un objectif clair : offrir, même en déplacement, un gala aussi abouti que celui présenté à Saumur. Les œuvres de Merlin, dont le travail saisit avec justesse la gestuelle et l’expression du cheval, subliment ce jeu de mouvements. Selon les jeux de lumière, les images apparaissent, disparaissent ou se transforment, ajoutant une dimension poétique et colorée à la mise en scène.
+      Selon les contraintes propres à chaque lieu, l’ensemble du dispositif reste modulable avec un objectif clair : offrir, même en déplacement, un gala aussi abouti que celui présenté à Saumur.
 ---
