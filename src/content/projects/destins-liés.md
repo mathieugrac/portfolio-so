@@ -61,7 +61,9 @@ blocks:
     alt: Destins liés Big Image Systems
   - type: text
     content: |-
-      Le décor se compose de neuf panneaux suspendus de quatre mètres sur cinq, accueillant les magnifiques toiles de Merlin Riand, jeune peintre animalier. Chaque panneau est doté d'un système de rétro-éclairage par leds, permettant l'apparition instantanée de nouvelles images. L'ensemble représente un ciel nuageux qui se transforme ainsi au cours de la représentation : des portraits de chevaux apparaissent, racontant ainsi la relation entre l'homme et le cheval à travers les siècles, en écho au texte de Jérôme Garcin. La prouesse technique et la magie de ces apparitions surprenant ainsi les spectateurs avec de nouvelles peintures. Les trois panneaux du haut sont motorisés et évoluent de haut en bas, au rythme du récit et des tableaux visuels. Les deux panneaux du fond sont fixés sur patience pour permettre les entrées et sorties. masquent ou révèlent la piste, et apportent une véritable profondeur scénographique. 
+      **Mouvements de décor et poésie de l'image.** 
 
-      Selon les contraintes propres à chaque lieu, l’ensemble du dispositif reste modulable avec un objectif clair : offrir, même en déplacement, un gala aussi abouti que celui présenté à Saumur.
+      Le décor se compose de neuf panneaux suspendus de quatre mètres sur cinq, accueillant les magnifiques toiles de Merlin Riand, jeune peintre animalier. Chaque panneau est doté d'un système de rétro-éclairage par leds, permettant l'apparition instantanée de nouvelles images. L'ensemble représente un ciel nuageux qui se transforme ainsi au cours de la représentation : des portraits de chevaux apparaissent, racontant la relation entre l'homme et le cheval à travers les siècles, en écho au texte de Jérôme Garcin. Les trois panneaux du haut sont motorisés et évoluent de haut en bas, au rythme du récit et des tableaux visuels. Les deux panneaux du fond sont sur patience pour permettre les entrées et sorties des chevaux et écuyers. 
+
+      En tournée et selon les contraintes propres à chaque lieu, l’ensemble du dispositif reste modulable avec un objectif clair : offrir, même en déplacement, un gala aussi abouti que celui présenté à Saumur.
 ---
