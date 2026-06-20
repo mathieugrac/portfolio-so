@@ -24,7 +24,7 @@ distribution:
   - role: Lumières
     name: Benoît Lemaire
   - role: Son
-    name: ''
+    name: composition musicale John Dada
   - role: Création vidéo
     name: ''
   - role: Costumes
@@ -49,5 +49,7 @@ distribution:
     name: Benoît Lemaire
   - role: Remerciements
     name: Laurence Sautet pour sa confiance tout au long de cette création, toute l'équipe du Cadre Noir ainsi que Pascale Vignal, Lise Mazeaud, Christian Desaivres pour leurs soutiens.
+  - role: ''
+    name: Texte de Jérôme Garcin, interprété par Marc Fayet
 blocks: []
 ---
