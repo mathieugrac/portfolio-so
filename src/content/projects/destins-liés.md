@@ -76,4 +76,14 @@ blocks:
     caption: Final avec saluts des écuyers et leurs chevaux.
     layout: center
     alt: IFCE Cadre Noir Thibaut Valette
+  - type: image
+    src: /img/uploads/Destins-lies-cadre-noir-de-saumur-grac-anne-sophie-scenographie.JPG
+    caption: Maquette du Manège avec décor suspendu, échelle 1/20ème.
+    layout: right
+    alt: Anne-Sophie Grac maquette décor cadre noir de saumur
+  - type: image
+    src: /img/uploads/Destins-lies-cadre-noir-de-saumur-grac-anne-sophie-scenographie-maquette-decor.JPG
+    caption: ''
+    layout: left
+    alt: Maquette décor gala saumur
 ---
