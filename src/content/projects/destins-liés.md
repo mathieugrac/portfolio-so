@@ -68,7 +68,7 @@ blocks:
       En tournée et selon les contraintes propres à chaque lieu, l’ensemble du dispositif reste modulable avec un objectif clair : offrir, même en déplacement, un gala aussi abouti que celui présenté à Saumur.
   - type: image
     src: /img/uploads/Cadre-Noir-IFCE-Thibaut-Vallette-Grac-Anne-Sophie-Laurence-Sautet-pegase.jpg
-    caption: Apparition du Pégase.
+    caption: Apparition du Pégase. Selon les jeux de lumière, les images apparaissent, disparaissent ou se transforment, ajoutant une dimension poétique et colorée à la mise en scène.
     layout: right
     alt: Cadre Noir Merlin Riand pegase
   - type: image
