@@ -69,7 +69,7 @@ blocks:
   - type: image
     src: /img/uploads/Cadre-Noir-IFCE-Thibaut-Vallette-Grac-Anne-Sophie-Laurence-Sautet-pegase.jpg
     caption: Apparition du Pégase.
-    layout: center
+    layout: right
     alt: Cadre Noir Merlin Riand pegase
   - type: image
     src: /img/uploads/Cadre-Noir-IFCE-Thibaut-Vallette-Grac-Anne-Sophie-Laurence-Sautet-saluts-ecuyers.jpg
