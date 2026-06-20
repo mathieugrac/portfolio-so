@@ -51,5 +51,7 @@ distribution:
     name: Laurence Sautet pour sa confiance tout au long de cette création, toute l'équipe du Cadre Noir ainsi que Pascale Vignal, Lise Mazeaud, Christian Desaivres pour leurs soutiens.
   - role: ''
     name: Texte de Jérôme Garcin, interprété par Marc Fayet
+  - role: ''
+    name: 'Création des peintures : Merlin Riand.'
 blocks: []
 ---
