@@ -44,7 +44,7 @@ distribution:
   - role: Régie générale
     name: ''
   - role: Construction
-    name: "Construction des panneaux lumineux par Big Image System, sous la direction d'Alexander Andrae Schäfer. Motorisation et installation dans le Manège de Saumur par Scène de Nuit, sous la direction de Jérémy Riteau. Prestataire en tournée : AZ Prod."
+    name: "Construction des panneaux lumineux par Big Image System, sous la direction d'Alexander Andrae Schäfer. Motorisation et installation dans le Manège de Saumur par Scène de Nuit, sous la direction de Jérémy Riteau. En tournée : AZ Prod."
   - role: Crédit photo
     name: Benoît Lemaire
   - role: Remerciements
