@@ -72,11 +72,6 @@ blocks:
     layout: right
     alt: Cadre Noir Merlin Riand pegase
   - type: image
-    src: /img/uploads/Cadre-Noir-IFCE-Thibaut-Vallette-Grac-Anne-Sophie-Laurence-Sautet-saluts-ecuyers.jpg
-    caption: Final avec saluts des écuyers et leurs chevaux.
-    layout: center
-    alt: IFCE Cadre Noir Thibaut Valette
-  - type: image
     src: /img/uploads/Destins-lies-cadre-noir-de-saumur-grac-anne-sophie-scenographie.JPG
     caption: Maquette du Manège avec décor suspendu, échelle 1/20ème.
     layout: right
@@ -86,4 +81,9 @@ blocks:
     caption: ''
     layout: left
     alt: Maquette décor gala saumur
+  - type: image
+    src: /img/uploads/Cadre-Noir-IFCE-Thibaut-Vallette-Grac-Anne-Sophie-Laurence-Sautet-saluts-ecuyers.jpg
+    caption: Final avec saluts des écuyers et leurs chevaux.
+    layout: center
+    alt: IFCE Cadre Noir Thibaut Valette
 ---
