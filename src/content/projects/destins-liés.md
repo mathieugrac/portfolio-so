@@ -12,7 +12,7 @@ description: |-
   Lors d'une collaboration de plus de 2ans, j'ai eu l'honneur de concevoir la scénographie de ce nouveau Gala, sous le regard bienveillant de Laurence Sautet, directrice artistique du projet et Thibaut Vallette, écuyer en chef du Cadre Noir.
 distribution:
   - role: Mise en scène
-    name: ''
+    name: Laurence Sautet
   - role: Dramaturgie
     name: ''
   - role: Adaptation
@@ -20,9 +20,9 @@ distribution:
   - role: Traduction
     name: ''
   - role: Scénographie
-    name: ''
+    name: Anne-Sophie Grac
   - role: Lumières
-    name: ''
+    name: Benoît Lemaire
   - role: Son
     name: ''
   - role: Création vidéo
@@ -40,14 +40,14 @@ distribution:
   - role: Assistant(e) mise en scène
     name: ''
   - role: Avec
-    name: ''
+    name: Les magnifiques chevaux du Cadre Noir et leurs écuyers.
   - role: Régie générale
     name: ''
   - role: Construction
-    name: ''
+    name: "Construction des panneaux lumineux par Big Image System, sous la direction d'Alexander Andrae Schäfer. Motorisation et installation dans le Manège de Saumur par Scène de Nuit, sous la direction de Jérémy Riteau. Prestataire en tournée : AZ Prod."
   - role: Crédit photo
-    name: ''
+    name: Benoît Lemaire
   - role: Remerciements
-    name: ''
+    name: Laurence Sautet pour sa confiance tout au long de cette création, toute l'équipe du Cadre Noir ainsi que Pascale Vignal, Lise Mazeaud, Christian Desaivres pour leurs soutiens.
 blocks: []
 ---
