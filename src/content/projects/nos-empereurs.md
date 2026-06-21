@@ -40,12 +40,17 @@ distribution:
 blocks:
   - type: image
     src: /img/uploads/260420_RdL_0098.jpg
-    caption: Manu Matte au centre dans le rôle d'Armand Lamarque
+    caption: Manu Matte au centre dans le rôle d'Armand Lamarque.
     layout: center
     alt: Guillaume-cayet-nos-emperuers-manu-matte
   - type: image
     src: /img/uploads/260420_RdL_0194.jpg
-    caption: Marie-Sohna Condé dans le rôle de Sénami et Manu Matte
+    caption: Marie-Sohna Condé dans le rôle de Sénami et Manu Matte.
     layout: right
     alt: Guillaume-cayet-nos-emperuers-comedie-de-valence-marie-sohna-condé
+  - type: text
+    content: |-
+      **Les voiles, la terre et le métal.** 
+
+      Nous avons choisi d'évoquer le campement militaire par un ensemble de voiles suspendus, offrant une atmosphère feutrée, presque étouffante. La présence de la terre au sol (liège étuvé) nous permet d'alterner entre espaces intérieurs et extérieurs, propres au récit. Les voiles sont arrachés en jeu et laissent place à une espace plus ouvert, découvrant une grande verrière, symbole de l'Empire d'Armand Lamarque, érigé sur les ruines d'une forêt décimée. Sous la terre, un grand plancher apparaît : il est l’œuvre de l'Homme qui s'installe, construit, et rase tout sur son passage. Pour la dernière partie du récit, le plancher est découvert en jeu par Armand qui le transforme en bunker. L'espace devient ensuite la patio d'un bar underground appelé "INFERNO", dans lequel Armand Lamarque, Empereur immortel, se voit manipulé et humilié.
 ---
