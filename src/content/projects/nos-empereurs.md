@@ -71,7 +71,7 @@ blocks:
   - type: image
     src: /img/uploads/260420_RdL_0606.jpg
     caption: Le bunker.
-    layout: left
+    layout: right
     alt: Guillaume-cayet-nos-emperuers-comedie-de-valence-daddy-kamono-manu-matte
   - type: image
     src: /img/uploads/260420_RdL_0689.jpg
