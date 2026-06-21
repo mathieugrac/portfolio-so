@@ -5,7 +5,7 @@ slug: destins-lies-cadre-noir-de-saumur
 year: 2025
 director: Laurence Sautet, Thibaut Vallette
 cover: /img/uploads/Cadre-Noir-IFCE-Thibaut-Vallette-Grac-Anne-Sophie-couverture.jpg
-pageCover: /img/uploads/Cadre-Noir-IFCE-Thibaut-Vallette-Grac-Anne-Sophie-Laurence-Sautet.jpg
+pageCover: /img/uploads/Cadre-Noir-IFCE-Thibaut-Vallette-Grac-Anne-Sophie-Laurence-Sautet-cadre.jpg
 description: |-
   Plus qu’un simple spectacle équestre, “Destins liés” est une création artistique imaginée par le Cadre noir de Saumur. Ce nouveau gala associe texte, musique originale, scénographie et lumière pour proposer une approche sensible du lien entre l’être humain et le cheval. À la croisée du théâtre et du spectacle vivant, il s’adresse autant aux cavaliers qu’aux néophytes, et invite le public à découvrir l’équitation comme on irait à l’opéra ou au théâtre. 
 
@@ -13,46 +13,22 @@ description: |-
 distribution:
   - role: Mise en scène
     name: Laurence Sautet
-  - role: Dramaturgie
-    name: ''
   - role: Adaptation
-    name: ''
-  - role: Traduction
-    name: ''
+    name: Jérôme Garcin (texte) avec la voix de Marc Fayet
   - role: Scénographie
-    name: Anne-Sophie Grac
+    name: Anne-Sophie Grac accompagnée de Merlin Riand à la création des peintures
   - role: Lumières
     name: Benoît Lemaire
   - role: Son
-    name: composition musicale John Dada
-  - role: Création vidéo
-    name: ''
-  - role: Costumes
-    name: ''
-  - role: Maquillage
-    name: ''
-  - role: Perruque
-    name: ''
-  - role: Marionnette
-    name: ''
-  - role: Collaboration artistique
-    name: ''
-  - role: Assistant(e) mise en scène
-    name: ''
+    name: John Dada (composition musicale)
   - role: Avec
     name: Les magnifiques chevaux du Cadre Noir et leurs écuyers.
-  - role: Régie générale
-    name: ''
   - role: Construction
     name: "Construction des panneaux lumineux par Big Image System, sous la direction d'Alexander Andrae Schäfer. Motorisation et installation dans le Manège de Saumur par Scène de Nuit, sous la direction de Jérémy Riteau. En tournée : AZ Prod."
   - role: Crédit photo
     name: Benoît Lemaire
   - role: Remerciements
     name: Laurence Sautet pour sa confiance tout au long de cette création, toute l'équipe du Cadre Noir ainsi que Pascale Vignal, Lise Mazeaud, Christian Desaivres pour leurs soutiens.
-  - role: ''
-    name: Texte de Jérôme Garcin, interprété par Marc Fayet
-  - role: ''
-    name: 'Création des peintures : Merlin Riand.'
 blocks:
   - type: image
     src: /img/uploads/Cadre-Noir-IFCE-Thibaut-Vallette-Grac-Anne-Sophie-Laurence-Sautet-destins-lies-big-image-system.jpg
@@ -68,7 +44,7 @@ blocks:
       En tournée et selon les contraintes propres à chaque lieu, l’ensemble du dispositif reste modulable avec un objectif clair : offrir, même en déplacement, un gala aussi abouti que celui présenté à Saumur.
   - type: image
     src: /img/uploads/Cadre-Noir-IFCE-Thibaut-Vallette-Grac-Anne-Sophie-Laurence-Sautet-pegase.jpg
-    caption: Apparition du Pégase. Selon les jeux de lumière, les images apparaissent, disparaissent ou se transforment, ajoutant une dimension poétique et colorée à la mise en scène.
+    caption: Apparition de la figure emblématique du Pégase. Selon les jeux de lumière, les images apparaissent, disparaissent ou se transforment, ajoutant une dimension poétique et colorée à la mise en scène.
     layout: right
     alt: Cadre Noir Merlin Riand pegase
   - type: image
