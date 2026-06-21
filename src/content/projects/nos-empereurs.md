@@ -53,4 +53,34 @@ blocks:
       **Les voiles, la terre et le métal.** 
 
       Nous avons choisi d'évoquer le campement militaire par un ensemble de voiles suspendus, offrant une atmosphère feutrée, presque étouffante. La présence de la terre au sol (liège étuvé) nous permet d'alterner entre espaces intérieurs et extérieurs, propres au récit. Les voiles sont arrachés en jeu et laissent place à un espace plus ouvert, découvrant une grande verrière - symbole de l'Empire d'Armand Lamarque - érigée sur les ruines d'une forêt décimée. Sous la terre, un grand plancher se dessine : il est l’œuvre de l'Homme qui s'installe, construit, et rase tout sur son passage. Pour la dernière partie du récit, le plancher est retiré en jeu par Armand et pour devenir un bunker sordide. L'espace se transforme ensuite en patio d'un bar underground appelé "INFERNO", dans lequel Armand Lamarque, Empereur immortel, se voit manipulé et humilié.
+  - type: image
+    src: /img/uploads/260420_RdL_0328.jpg
+    caption: ''
+    layout: center
+    alt: Guillaume-cayet-nos-emperuers-comedie-de-valence-kevin-briard
+  - type: image
+    src: /img/uploads/260420_RdL_0414.jpg
+    caption: ''
+    layout: right
+    alt: Guillaume-cayet-nos-emperuers-comedie-de-valence-kevin-briard-mathilde-weil
+  - type: image
+    src: /img/uploads/260420_RdL_0490.jpg
+    caption: ''
+    layout: left
+    alt: Guillaume-cayet-nos-emperuers-comedie-de-valence-daddy-kamono-manu-matte
+  - type: image
+    src: /img/uploads/260420_RdL_0606.jpg
+    caption: Le bunker.
+    layout: left
+    alt: Guillaume-cayet-nos-emperuers-comedie-de-valence-daddy-kamono-manu-matte
+  - type: image
+    src: /img/uploads/260420_RdL_0689.jpg
+    caption: Dans le patio de l'INFERNO.
+    layout: center
+    alt: Guillaume-cayet-nos-emperuers-comedie-de-valence-vincent-dissez
+  - type: image
+    src: /img/uploads/260420_RdL_0844.jpg
+    caption: ''
+    layout: center
+    alt: Guillaume-cayet-nos-emperuers-comedie-de-valence-vincent-dissez-MC93
 ---
