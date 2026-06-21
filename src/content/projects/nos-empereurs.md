@@ -12,42 +12,30 @@ description: |-
   Pour cette première collaboration ensemble, nous avons imaginé un décor-monde qui évolue au cours du récit : d'abord campement militaire, puis maison coloniale en construction et enfin, club déjanté aux portes de l'enfer...
 distribution:
   - role: Mise en scène
-    name: ''
-  - role: Dramaturgie
-    name: ''
-  - role: Adaptation
-    name: ''
-  - role: Traduction
-    name: ''
-  - role: Scénographie
-    name: ''
-  - role: Lumières
-    name: ''
-  - role: Son
-    name: ''
-  - role: Création vidéo
-    name: ''
-  - role: Costumes
-    name: ''
-  - role: Maquillage
-    name: ''
-  - role: Perruque
-    name: ''
-  - role: Marionnette
-    name: ''
-  - role: Collaboration artistique
-    name: ''
+    name: Guillaume Cayet
   - role: Assistant(e) mise en scène
-    name: ''
+    name: Noémie Guille
+  - role: Scénographie
+    name: Anne-Sophie Grac
+  - role: Lumières
+    name: Kévin Briard
+  - role: Son
+    name: Antoine Briot
+  - role: Création vidéo
+    name: Salomé Laloux-Bard
+  - role: Costumes
+    name: Patricia De Petiville et Barbara Mornet, accompagnées de Judith Dubois aux masques
+  - role: Maquillage
+    name: Christelle Paillard
   - role: Avec
-    name: ''
+    name: Marie-Sohna Condé, Vincent Dissez, Noémie Guille en alternance avec Zdenka Tchamkerten, Moanda Daddy Kamono, Aristote Luyindula, ManuMatte, Founemoussou Sissoko, Mathilde Weil
   - role: Régie générale
-    name: ''
+    name: Charles Rey
   - role: Construction
-    name: ''
+    name: Ateliers de la MC93, Maurizio Moretti
   - role: Crédit photo
-    name: ''
+    name: Christophe Reynaud de Lage
   - role: Remerciements
-    name: ''
+    name: Margot pour ses petites mains tout au long des répétitions.
 blocks: []
 ---
