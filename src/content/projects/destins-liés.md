@@ -24,7 +24,7 @@ distribution:
   - role: Avec
     name: Les magnifiques chevaux du Cadre Noir et leurs écuyers.
   - role: Construction
-    name: "Construction des panneaux lumineux par Big Image System, sous la direction d'Alexander Andrae Schäfer. Motorisation et installation dans le Manège de Saumur par Scène de Nuit, sous la direction de Jérémy Riteau. En tournée : AZ Prod."
+    name: "Big Image System (panneaux lumineux) sous la direction d'Alexander Andrae Schäfer. Scène de nuit, Jérémy Riteau (Motorisation et installation dans le Manège de Saumur). En tournée : AZ Prod."
   - role: Crédit photo
     name: Benoît Lemaire
   - role: Remerciements
