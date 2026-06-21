@@ -37,5 +37,15 @@ distribution:
     name: Christophe Reynaud de Lage
   - role: Remerciements
     name: Margot pour ses petites mains tout au long des répétitions.
-blocks: []
+blocks:
+  - type: image
+    src: /img/uploads/260420_RdL_0098.jpg
+    caption: Manu Matte au centre dans le rôle d'Armand Lamarque
+    layout: center
+    alt: Guillaume-cayet-nos-emperuers-manu-matte
+  - type: image
+    src: /img/uploads/260420_RdL_0194.jpg
+    caption: Marie-Sohna Condé dans le rôle de Sénami et Manu Matte
+    layout: right
+    alt: Guillaume-cayet-nos-emperuers-comedie-de-valence-marie-sohna-condé
 ---
