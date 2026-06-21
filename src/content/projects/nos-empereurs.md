@@ -36,7 +36,7 @@ distribution:
   - role: Crédit photo
     name: Christophe Reynaud de Lage
   - role: Remerciements
-    name: Margot pour ses petites mains tout au long des répétitions.
+    name: Colette Dornic pour son travail titanesque pour la maquette du Dangbé Resort et Margot pour ses petites mains tout au long des répétitions.
 blocks:
   - type: image
     src: /img/uploads/260420_RdL_0098.jpg
