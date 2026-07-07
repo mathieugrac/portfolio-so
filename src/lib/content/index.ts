@@ -202,7 +202,7 @@ export async function getSiteSettings(): Promise<SiteSettings> {
     return {
       name: "Anne Sophie Grac",
       email: "annesophiegrac@gmail.com",
-      portrait: "/img/portrait-anneso-5.jpg",
+      portrait: "/img/uploads/portrait-anneso-6.jpg",
       headline: "Anne Sophie Grac est scénographe et costumière.",
       subheadline:
         "Diplômée de l'École du Théâtre National de Strasbourg, elle consacre son énergie à de nombreuses créations théâtrales.",
