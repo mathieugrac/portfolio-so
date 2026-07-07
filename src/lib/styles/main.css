@@ -782,7 +782,7 @@ li a:hover {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 9;
+  z-index: 100;
   transition: background-color ease 0.2s;
 }
 @media screen and (min-width: 800px) {
@@ -915,7 +915,6 @@ ul.submenu li a {
   width: 160px;
   height: 160px;
   margin-bottom: 160px;
-  z-index: 10;
 }
 
 .parcours h1 {
