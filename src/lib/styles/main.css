@@ -911,6 +911,10 @@ ul.submenu li a {
     font-size: 32px;
   }
 }
+.intro.space-top-normal, .parcours.space-top-normal {
+  padding-top: 90px;
+}
+
 .intro img, .parcours img {
   width: 160px;
   height: 160px;
