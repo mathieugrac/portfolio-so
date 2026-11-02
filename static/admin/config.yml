@@ -228,7 +228,7 @@ collections:
               collection: "projects"
               search_fields: ["title", "slug"]
               value_field: "slug"
-              display_fields: ["title", " (", "year", ")"]
+              display_fields: ["{{title}} ({{year}})"]
 
   # ==================
   # PARCOURS (CV)
