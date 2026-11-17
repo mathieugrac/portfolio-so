@@ -55,4 +55,59 @@ blocks:
     caption: Ekaterina-Sannikova (soprano) dans le rôle de Lady Macbeth
     layout: left
     alt: macbeth-verdi-ambre-kahan-Ekaterina-Sannikova
+  - type: image
+    src: /img/uploads/26CD0923ORN_0692.JPG
+    caption: ''
+    layout: center
+    alt: macbeth-verdi-ambre-kahan-jean-alois-belbachir-meurtre-de-duncan
+  - type: image
+    src: /img/uploads/26CD0923ORN_0709.JPG
+    caption: ''
+    layout: left
+    alt: macbeth-verdi-ambre-kahan-opera-national-bordeaux
+  - type: image
+    src: /img/uploads/26CD0923ORN_0752.JPG
+    caption: ''
+    layout: right
+    alt: macbeth-verdi-ambre-kahan-Ekaterina-Sannikova
+  - type: image
+    src: /img/uploads/26CD0923ORN_0880.JPG
+    caption: Scène du banquet chez les Macbeth
+    layout: center
+    alt: macbeth-verdi-ambre-kahan-ekaterina-sannikova-aleksei-isaev
+  - type: image
+    src: /img/uploads/26CD0923ORN_0876.JPG
+    caption: ''
+    layout: left
+    alt: macbeth-verdi-ambre-kahan-ekaterina-sannikova-aleksei-isaev-opera-de-rouen
+  - type: image
+    src: /img/uploads/26CD0923ORN_0934.JPG
+    caption: ''
+    layout: right
+    alt: macbeth-verdi-ambre-kahan-peixin-chen-aleksei-isaev-opera-de-rouen
+  - type: image
+    src: /img/uploads/26CD0923ORN_1097.JPG
+    caption: ''
+    layout: left
+    alt: macbeth-verdi-ambre-kahan-anne-sophie-grac
+  - type: image
+    src: /img/uploads/26CD0923ORN_1195.JPG
+    caption: ''
+    layout: center
+    alt: macbeth-verdi-ambre-kahan-anne-sophie-grac-les-sorcieres-colombre-prevost
+  - type: image
+    src: /img/uploads/26CD0923ORN_1546.JPG
+    caption: ''
+    layout: center
+    alt: macbeth-verdi-ambre-kahan-anne-sophie-grac-irina-sherazadishvili
+  - type: image
+    src: /img/uploads/26CD0923ORN_1586.JPG
+    caption: ''
+    layout: right
+    alt: macbeth-verdi-ambre-kahan-anne-sophie-grac-suicide-lady-macbeth.
+  - type: image
+    src: /img/uploads/26CD0923ORN_1704.JPG
+    caption: Meurtre de Macbeth par Macduff, interprété par Matteo Roma (au centre).
+    layout: center
+    alt: macbeth-verdi-ambre-kahan-anne-sophie-grac-opera-de-rouen-final
 ---
