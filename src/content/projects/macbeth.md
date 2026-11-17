@@ -86,13 +86,8 @@ blocks:
     layout: center
     alt: macbeth-verdi-ambre-kahan-anne-sophie-grac-les-sorcieres-colombre-prevost
   - type: image
-    src: /img/uploads/macbeth-opera-de-rouen-ambre-kahan-scenographie-anne-sophie-grac.jpg
-    caption: ''
-    layout: center
-    alt: macbeth-opera-de-rouen-ambre-kahan-scenographie-anne-sophie-grac.jpg
-  - type: image
     src: /img/uploads/26CD0923ORN_1546.JPG
-    caption: ''
+    caption: Irina Sherazadishvili (suivante de Lady Macbeth) et Lysandre Châlon (un médecin)
     layout: center
     alt: macbeth-verdi-ambre-kahan-anne-sophie-grac-irina-sherazadishvili
   - type: image
