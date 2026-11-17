@@ -44,5 +44,15 @@ distribution:
     name: Caroline Doutre
   - role: Remerciements
     name: Toute l'équipe des ateliers décor et plateau de l'Opéra de Rouen.
-blocks: []
+blocks:
+  - type: image
+    src: /img/uploads/macbeth-verdi-opera-orchestre-de-rouen-ambre-kahan-Ekaterina-Sannikova.JPG
+    caption: Le château des Macbeth
+    layout: center
+    alt: macbeth-verdi-opera-orchestre-de-rouen-ambre-kahan-Ekaterina-Sannikova
+  - type: image
+    src: /img/uploads/26CD0923ORN_0358.JPG
+    caption: Ekaterina-Sannikova (soprano) dans le rôle de Lady Macbeth
+    layout: left
+    alt: macbeth-verdi-ambre-kahan-Ekaterina-Sannikova
 ---
