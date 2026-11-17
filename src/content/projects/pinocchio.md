@@ -5,7 +5,7 @@ slug: pinocchio-ambre-kahan-la-cooperative
 year: 2026
 director: Ambre Kahan
 cover: /img/uploads/pinocchio_ambre_kahan_la_cooperative_opera_comique.jpg
-pageCover: /img/uploads/pinocchio_ambre_kahan_la_cooperative_vibe_rouvet_la_fee_joel_pommerat.jpg
+pageCover: /img/uploads/261103_RdL_0142.jpg
 description: Créé au Festival d’Aix-en-Provence en 2017, Pinocchio réunit l’univers musical de Philippe Boesmans et l’écriture théâtrale de Joël Pommerat dans un opéra aussi poétique que saisissant. Entre fable et théâtre forain, cette histoire initiatique explore le passage de l’enfance à la conscience, dans un univers où le merveilleux côtoie la rudesse du réel. Pour cette nouvelle production de la co[opéra]tive, la metteuse en scène Ambre Kahan imagine un espace libre et vivant, peuplé de créatures, où chanteurs et musiciens deviennent les membres d’une même troupe.
 distribution:
   - role: Mise en scène
@@ -46,11 +46,6 @@ blocks:
     caption: "René Ramos Premier dans le rôle du Directeur de la troupe. À l'arrière : masques conçus par Louise Digard."
     layout: left
     alt: Pinocchio_la_cooperative_rené_ramos_premier
-  - type: image
-    src: /img/uploads/261103_RdL_0142.jpg
-    caption: ''
-    layout: center
-    alt: Pinocchio_la_cooperative_miroirs_etendus_opera_de_rouen
   - type: image
     src: /img/uploads/Pinocchio_la_cooperative_anais_merlin_jean_luc_ballestra.jpg
     caption: Anaïs Merlin dans le rôle de Pinocchio et Jean-Luc Ballestra dans celui de Gepetto.
@@ -95,8 +90,8 @@ blocks:
     alt: Rene_ramos_premier_jordan_mouaissa_anais_merlin_la_cooperative.
   - type: image
     src: /img/uploads/261103_RdL_0426.jpg
-    caption: ''
-    layout: right
+    caption: Jean-Luc Ballestra dans le rôle du maître d'école, face à Pinocchio.
+    layout: center
     alt: Pinocchio-ambre-kahan-get-out-jean-luc-ballestra-anais-merlin.jpg
   - type: image
     src: /img/uploads/Pinocchio-ambre-kahan-get-out-vibe-rouvet-la-fee-colodi.jpg
