@@ -61,7 +61,7 @@ blocks:
   - type: image
     src: /img/uploads/Pinocchio-croquis-grac-anne-sophie-scenographie.png
     caption: Croquis de l'espace scénique
-    layout: right
+    layout: center
     alt: Pinocchio-ambre-kahan-croquis-grac-anne-sophie-scenographie.png
   - type: image
     src: /img/uploads/pinocchio_ambre_kahan_la_cooperative_alienor_feix.jpg
