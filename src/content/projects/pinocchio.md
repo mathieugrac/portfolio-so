@@ -15,7 +15,7 @@ distribution:
   - role: ''
     name: Musique de Philippe Boesmans.
   - role: ''
-    name: Sous la Direction musicale de Léo Margue, en alternance avec Fiona Monbet. Chez de chant Romain Louveau, en alternance avec Nicolas Royez
+    name: Sous la Direction musicale de Léo Margue, en alternance avec Fiona Monbet. Chef de chant Romain Louveau, en alternance avec Nicolas Royez
   - role: Assistant(e) mise en scène
     name: Quentin Amiot
   - role: Scénographie
