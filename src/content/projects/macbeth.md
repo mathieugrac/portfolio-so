@@ -5,7 +5,7 @@ slug: macbeth-verdi-opera-orchestre-de-rouen
 year: 2026
 director: Ambre Kahan
 cover: /img/uploads/macbeth_verdi_opera_orchestre_de_rouen_ambre_kahan.JPG
-pageCover: /img/uploads/macbeth-opera-de-rouen-verdi-ambre-kahan-lysandre-chalon.jpg
+pageCover: /img/uploads/macbeth-opera-de-rouen-ambre-kahan-scenographie-anne-sophie-grac.jpg
 description: |-
   En adaptant l’histoire de Macbeth dans une de ses partitions les plus audacieuses, Verdi fait naître un cocktail explosif. Une association du génie théâtral de Shakespeare et du drame à l’italienne, sur une musique incandescente.
 
