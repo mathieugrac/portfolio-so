@@ -36,19 +36,13 @@ distribution:
     name: Maquillage et perruques Judith Scotto. Chorégraphies Johanna Faye.
   - role: Avec
     name: 'Aleksei Isaev, Peixin Chen, Ekaterina Sannikova, Irina Sherazadishvili, Matteo Roma, Néstor Galván, Lysandre Châlon, Jean Aloïs Belbachir. Danseurs : Waël, Anaïs Mauri. Et le cheval Gotama.'
-  - role: Collaboration artistique
-    name: ''
-  - role: Assistant(e) mise en scène
-    name: ''
-  - role: Avec
-    name: ''
   - role: Régie générale
-    name: ''
+    name: Simon David
   - role: Construction
-    name: ''
+    name: Opéra Orchestre Normandie Rouen, Opéra National de Bordeaux
   - role: Crédit photo
-    name: ''
+    name: Caroline Doutre
   - role: Remerciements
-    name: ''
+    name: Toute l'équipe des ateliers décor et plateau de l'Opéra de Rouen.
 blocks: []
 ---
