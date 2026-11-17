@@ -54,7 +54,7 @@ blocks:
   - type: image
     src: /img/uploads/Pinocchio_la_cooperative_anais_merlin_jean_luc_ballestra.jpg
     caption: Anaïs Merlin dans le rôle de Pinocchio et Jean-Luc Ballestra dans celui de Gepetto.
-    layout: center
+    layout: right
     alt: Pinocchio_la_cooperative_anais_merlin_jean_luc_ballestra
   - type: text
     content: |-
@@ -66,7 +66,7 @@ blocks:
   - type: image
     src: /img/uploads/Pinocchio-croquis-grac-anne-sophie-scenographie.png
     caption: Croquis de l'espace scénique
-    layout: center
+    layout: right
     alt: Pinocchio-ambre-kahan-croquis-grac-anne-sophie-scenographie.png
   - type: image
     src: /img/uploads/pinocchio_ambre_kahan_la_cooperative_alienor_feix.jpg
