@@ -33,7 +33,7 @@ distribution:
   - role: Avec
     name: Anaïs Merlin, René Ramos Premier en alternance avec Romain Dayez, Jean-Luc Ballestra, Jordan Mouaïssia, Aliénor Feix en alternance avec Marion Vergez Pascal, Vibe Rouvet, Francesco Semeraro
   - role: ''
-    name: Ensemble Miroirs Étendus, 19 instrumentistes
+    name: et l'Ensemble Miroirs Étendus (19 instrumentistes)
   - role: Construction
     name: 'Fabrication des décors : Opéra Orchestre Normandie Rouen / Fabrication costumes : Opéra-Comique'
   - role: Crédit photo
