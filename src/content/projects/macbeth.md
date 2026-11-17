@@ -17,7 +17,7 @@ distribution:
   - role: ''
     name: Direction musicale Pierre Dumoussaud.
   - role: ''
-    name: Livret de Francesco Maria Piave et Andrea Maffei, d’après William Shakespeare. Créé à Florence en 1847.
+    name: Livret de Francesco Maria Piave et Andrea Maffei, d’après William Shakespeare.
   - role: Assistant(e) mise en scène
     name: Romain Tamisier
   - role: Scénographie
