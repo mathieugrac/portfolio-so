@@ -9,7 +9,7 @@ pageCover: /img/uploads/261103_RdL_0142.jpg
 description: |-
   Créé au Festival d’Aix-en-Provence en 2017, Pinocchio réunit l’univers musical de Philippe Boesmans et l’écriture théâtrale de Joël Pommerat dans un opéra aussi poétique que saisissant. Entre fable et théâtre forain, cette histoire initiatique explore le passage de l’enfance à la conscience, dans un univers où le merveilleux côtoie la rudesse du réel. Pour cette nouvelle production de la co[opéra]tive, la metteuse en scène Ambre Kahan imagine un espace libre et vivant, peuplé de créatures, où chanteurs et musiciens deviennent les membres d’une même troupe.
 
-  Pour cette troisième collaboration avec Ambre, j'ai eu la chance de travailler aux côtés de l'Opéra Comique pour la réalisation des costumes et avec l'Opéra de Rouen pour la fabrication du décor.
+  Pour cette quatrième collaboration avec Ambre, j'ai eu la chance de travailler aux côtés de l'Opéra Comique pour la réalisation des costumes et avec l'Opéra de Rouen pour la fabrication du décor.
 distribution:
   - role: Mise en scène
     name: Ambre Kahan.
