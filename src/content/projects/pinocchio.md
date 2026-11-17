@@ -48,7 +48,7 @@ blocks:
     alt: Pinocchio_la_cooperative_rené_ramos_premier
   - type: image
     src: /img/uploads/Pinocchio_la_cooperative_anais_merlin_jean_luc_ballestra.jpg
-    caption: Anaïs Merlin dans le rôle de Pinocchio et Jean-Luc Ballestra dans celui de Gepetto.
+    caption: Anaïs Merlin (soprano) dans le rôle de Pinocchio et Jean-Luc Ballestra (baryton) dans celui de Gepetto.
     layout: right
     alt: Pinocchio_la_cooperative_anais_merlin_jean_luc_ballestra
   - type: text
@@ -65,7 +65,7 @@ blocks:
     alt: Pinocchio-ambre-kahan-croquis-grac-anne-sophie-scenographie.png
   - type: image
     src: /img/uploads/pinocchio_ambre_kahan_la_cooperative_alienor_feix.jpg
-    caption: Aliénor Feix dans le rôle de la chanteuse de Cabaret.
+    caption: Aliénor Feix (mezzo-soprano) dans le rôle de la chanteuse de Cabaret.
     layout: left
     alt: pinocchio_ambre_kahan_la_cooperative_alienor_feix
   - type: image
@@ -95,7 +95,7 @@ blocks:
     alt: Pinocchio-ambre-kahan-get-out-jean-luc-ballestra-anais-merlin.jpg
   - type: image
     src: /img/uploads/Pinocchio-ambre-kahan-get-out-vibe-rouvet-la-fee-colodi.jpg
-    caption: ''
+    caption: Vibe Rouvet (soprano) interprète La Fée
     layout: right
     alt: Pinocchio-ambre-kahan-get-out-vibe-rouvet-la-fee-colodi
   - type: image
