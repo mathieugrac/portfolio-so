@@ -10,10 +10,10 @@ description: Créé au Festival d’Aix-en-Provence en 2017, Pinocchio réunit l
 distribution:
   - role: Mise en scène
     name: Ambre Kahan
-  - role: Dramaturgie
-    name: Sur un livret de Joël Pommerat
-  - role: Son
-    name: Musique de Philippe Boesmans
+  - role: ''
+    name: sur un livret de Joël Pommerat.
+  - role: ''
+    name: Musique de Philippe Boesmans.
   - role: ''
     name: Sous la Direction musicale de Léo Margue, en alternance avec Fiona Monbet. Chez de chant Romain Louveau, en alternance avec Nicolas Royez
   - role: Assistant(e) mise en scène
