@@ -1,5 +1,5 @@
 ---
-title: PINOCCHIO
+title: Pinocchio
 subtitle: sur un livret de Joël Pommerat
 slug: pinocchio-ambre-kahan-la-cooperative
 year: 2026
