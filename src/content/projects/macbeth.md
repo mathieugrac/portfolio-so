@@ -67,17 +67,17 @@ blocks:
     alt: macbeth-verdi-ambre-kahan-Ekaterina-Sannikova
   - type: image
     src: /img/uploads/26CD0923ORN_0880.JPG
-    caption: Scène du banquet chez les Macbeth
+    caption: Scène du banquet chez les Macbeth. Le voile blanc de la scène précédente devient la nappe du banquet, sous laquelle gît le corps de Banco.
     layout: center
     alt: macbeth-verdi-ambre-kahan-ekaterina-sannikova-aleksei-isaev
   - type: image
     src: /img/uploads/26CD0923ORN_0934.JPG
-    caption: ''
+    caption: Le mur de crâne se lève pour faire apparaître le spectre de Banco (interprété par Peixin Chen).
     layout: right
     alt: macbeth-verdi-ambre-kahan-peixin-chen-aleksei-isaev-opera-de-rouen
   - type: image
     src: /img/uploads/26CD0923ORN_1097.JPG
-    caption: ''
+    caption: "Acte III : la danseuse Anaïs Mauri dans le rôle d'une sorcière."
     layout: left
     alt: macbeth-verdi-ambre-kahan-anne-sophie-grac
   - type: image
@@ -92,7 +92,7 @@ blocks:
     alt: macbeth-verdi-ambre-kahan-anne-sophie-grac-irina-sherazadishvili
   - type: image
     src: /img/uploads/26CD0923ORN_1586.JPG
-    caption: ''
+    caption: Ekaterina Sannikova (Lady Macbeth)
     layout: right
     alt: macbeth-verdi-ambre-kahan-anne-sophie-grac-suicide-lady-macbeth.
   - type: image
