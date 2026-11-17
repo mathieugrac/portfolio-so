@@ -1,6 +1,6 @@
 ---
 title: PINOCCHIO
-subtitle: d'après le livret de Joël Pommerat
+subtitle: sur un livret de Joël Pommerat
 slug: pinocchio-ambre-kahan-la-cooperative
 year: 2026
 director: Ambre Kahan
