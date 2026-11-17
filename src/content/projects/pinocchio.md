@@ -88,4 +88,29 @@ blocks:
     caption: "Maquettes costumes : Le Marchand d'ânes, le Directeur du Cabaret, deuxième Escroc, le mauvais élève"
     layout: center
     alt: Pinocchio-costumes-opera-comique-anne-sophie-grac-ambre-kahan
+  - type: image
+    src: /img/uploads/Rene_ramos_premier_jordan_mouaissa_anais_merlin_la_cooperative.jpg
+    caption: Les escrocs (Jordan Mouaïssia, René Ramos Premier) et Pinocchio (Anaïs Merlin)
+    layout: left
+    alt: Rene_ramos_premier_jordan_mouaissa_anais_merlin_la_cooperative.
+  - type: image
+    src: /img/uploads/261103_RdL_0426.jpg
+    caption: ''
+    layout: right
+    alt: Pinocchio-ambre-kahan-get-out-jean-luc-ballestra-anais-merlin.jpg
+  - type: image
+    src: /img/uploads/Pinocchio-ambre-kahan-get-out-vibe-rouvet-la-fee-colodi.jpg
+    caption: ''
+    layout: right
+    alt: Pinocchio-ambre-kahan-get-out-vibe-rouvet-la-fee-colodi
+  - type: image
+    src: /img/uploads/Pinocchio_ambre_kahan_la_cooperative_joel_pommerat_miroirs_etendus.jpg
+    caption: Le décor se retourne et devient "Le pays de la vraie vie", où Pinocchio et son ami le mauvais élève seront changés en ânes.
+    layout: left
+    alt: Pinocchio_ambre_kahan_la_cooperative_joel_pommerat_miroirs_etendus
+  - type: image
+    src: /img/uploads/261103_RdL_0551.jpg
+    caption: '"Et il entra violemment dans la mer" (...)'
+    layout: center
+    alt: Pinocchio_ambre_kahan_la_cooperative_joel_pommerat_miroirs_etendus_jean_luc_ballestra
 ---
