@@ -5,7 +5,7 @@ slug: macbeth-verdi-opera-orchestre-de-rouen
 year: 2026
 director: Ambre Kahan
 cover: /img/uploads/macbeth_verdi_opera_orchestre_de_rouen_ambre_kahan.JPG
-pageCover: /img/uploads/26CD0923ORN_1326.JPG
+pageCover: /img/uploads/26CD0923ORN_1546.JPG
 description: |-
   En adaptant l’histoire de Macbeth dans une de ses partitions les plus audacieuses, Verdi fait naître un cocktail explosif. Une association du génie théâtral de Shakespeare et du drame à l’italienne, sur une musique incandescente.
 
@@ -75,11 +75,6 @@ blocks:
     caption: Scène du banquet chez les Macbeth
     layout: center
     alt: macbeth-verdi-ambre-kahan-ekaterina-sannikova-aleksei-isaev
-  - type: image
-    src: /img/uploads/26CD0923ORN_0876.JPG
-    caption: ''
-    layout: left
-    alt: macbeth-verdi-ambre-kahan-ekaterina-sannikova-aleksei-isaev-opera-de-rouen
   - type: image
     src: /img/uploads/26CD0923ORN_0934.JPG
     caption: ''
