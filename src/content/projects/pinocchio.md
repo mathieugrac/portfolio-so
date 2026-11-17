@@ -6,7 +6,10 @@ year: 2026
 director: Ambre Kahan
 cover: /img/uploads/pinocchio_ambre_kahan_la_cooperative_opera_comique.jpg
 pageCover: /img/uploads/261103_RdL_0142.jpg
-description: Créé au Festival d’Aix-en-Provence en 2017, Pinocchio réunit l’univers musical de Philippe Boesmans et l’écriture théâtrale de Joël Pommerat dans un opéra aussi poétique que saisissant. Entre fable et théâtre forain, cette histoire initiatique explore le passage de l’enfance à la conscience, dans un univers où le merveilleux côtoie la rudesse du réel. Pour cette nouvelle production de la co[opéra]tive, la metteuse en scène Ambre Kahan imagine un espace libre et vivant, peuplé de créatures, où chanteurs et musiciens deviennent les membres d’une même troupe.
+description: |-
+  Créé au Festival d’Aix-en-Provence en 2017, Pinocchio réunit l’univers musical de Philippe Boesmans et l’écriture théâtrale de Joël Pommerat dans un opéra aussi poétique que saisissant. Entre fable et théâtre forain, cette histoire initiatique explore le passage de l’enfance à la conscience, dans un univers où le merveilleux côtoie la rudesse du réel. Pour cette nouvelle production de la co[opéra]tive, la metteuse en scène Ambre Kahan imagine un espace libre et vivant, peuplé de créatures, où chanteurs et musiciens deviennent les membres d’une même troupe.
+
+  Pour cette troisième collaboration avec Ambre, j'ai eu la chance de travailler aux côtés de l'Opéra Comique pour la réalisation des costumes et avec l'Opéra de Rouen pour la fabrication du décor.
 distribution:
   - role: Mise en scène
     name: Ambre Kahan.
@@ -53,11 +56,11 @@ blocks:
     alt: Pinocchio_la_cooperative_anais_merlin_jean_luc_ballestra
   - type: text
     content: |-
-      **Rêves de scénographe ou rêves d'enfant ?**
+      **Rêve de scénographe ou rêve d'enfant ?**
 
-      Pour cette troisième collaboration avec Ambre, j'ai eu la chance de concevoir un espace hybride entre rêve et réalité : une piste de cirque à l’intérieur d'une forêt calcinée, une cabane dans les arbres, des personnages fantasques mi-humain.e.s mi-marionnettes, des loges et sièges de théâtre perdus dans la nuit, une tournette psychédélique, un gorille-juge d'instruction... 
+      Pour _Pinocchio_ et dans l'esprit toujours plus créatif d'Ambre Kahan, je me suis amusée à concevoir un espace hybride entre rêve et réalité : une piste de cirque à l’intérieur d'une forêt calcinée, une cabane dans les arbres, des personnages fantasques mi-humain.e.s mi-marionnettes, des loges et sièges de théâtre perdus dans la nuit, une tournette psychédélique, un gorille-juge d'instruction... 
 
-      Le parti pris de ce décor : un univers tout en monochrome de noir, loin du "CIRCUS" coloré qui habite nos imaginaires. Dans cette pénombre inquiétante, c'est les personnages qui viennent raviver les couleurs : une femme à barbe glamour, un directeur de cirque extravagant, une fée-ressuscitée... Chaque silhouette fait écho à l’œuvre originale de Colodi, où les hommes se mélangent au bestiaire.
+      Le parti pris de ce décor : un univers tout en monochrome de noir, loin du "CIRCUS" coloré qui habite nos imaginaires. Dans cette pénombre inquiétante, c'est les personnages qui viennent raviver les couleurs : une femme à barbe glamour, un directeur de cirque extravagant, une fée-fantôme-ressuscitée... Chaque silhouette fait écho à l’œuvre originale de Colodi, où les hommes se mélangent au bestiaire.
   - type: image
     src: /img/uploads/Pinocchio-croquis-grac-anne-sophie-scenographie.png
     caption: Croquis de l'espace scénique
