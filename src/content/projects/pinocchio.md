@@ -65,4 +65,19 @@ blocks:
       Pour cette troisième collaboration avec Ambre, j'ai eu la chance de concevoir un espace hybride entre rêve et réalité : une piste de cirque à l’intérieur d'une forêt calcinée, une cabane dans les arbres, des personnages fantasques mi-humain.e.s mi-marionnettes, des loges et sièges de théâtre perdus dans la nuit, une tournette psychédélique, un gorille-juge d'instruction... 
 
       Le parti pris de ce décor : un univers tout en monochrome de noir, loin du "CIRCUS" coloré qui habite nos imaginaires. Dans cette pénombre inquiétante, c'est les personnages qui viennent raviver les couleurs : une femme à barbe glamour, un directeur de cirque extravagant, une fée-ressuscitée... Chaque silhouette fait écho à l’œuvre originale de Colodi, où les hommes se mélangent au bestiaire.
+  - type: image
+    src: /img/uploads/Pinocchio-croquis-grac-anne-sophie-scenographie.png
+    caption: Croquis de l'espace scénique
+    layout: center
+    alt: Pinocchio-ambre-kahan-croquis-grac-anne-sophie-scenographie.png
+  - type: image
+    src: /img/uploads/pinocchio_ambre_kahan_la_cooperative_alienor_feix.jpg
+    caption: Aliénor Feix dans le rôle de la chanteuse de Cabaret.
+    layout: left
+    alt: pinocchio_ambre_kahan_la_cooperative_alienor_feix
+  - type: image
+    src: /img/uploads/pinocchio_ambre_kahan_la_cooperative_alienor_feix_joel_pommerat_leo_margue.jpg
+    caption: ''
+    layout: right
+    alt: pinocchio_ambre_kahan_la_cooperative_alienor_feix_joel_pommerat_leo_margue.
 ---
