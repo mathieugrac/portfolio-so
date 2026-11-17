@@ -39,7 +39,7 @@ distribution:
   - role: Crédit photo
     name: Christophe Raynaud de Lage
   - role: Remerciements
-    name: Adélaïde Gosselin et Lucie Lecarpentier pour la fabrication de ces magnifiques costumes et Paloma Ohnona pour son accompagnement.
+    name: Adélaïde Gosselin, Lucie Lecarpentier et Paloma Ohnona.
 blocks:
   - type: image
     src: /img/uploads/Pinocchio_la_cooperative_rene_ramos_premier.jpg
