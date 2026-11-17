@@ -51,20 +51,20 @@ blocks:
     layout: center
     alt: macbeth-verdi-opera-orchestre-de-rouen-ambre-kahan-Ekaterina-Sannikova
   - type: image
-    src: /img/uploads/26CD0923ORN_0358.JPG
-    caption: Ekaterina-Sannikova (soprano) dans le rôle de Lady Macbeth
+    src: /img/uploads/26CD0923ORN_0709.JPG
+    caption: Aleksei Isaev (baryton) et Ekaterina-Sannikova (soprano) dans les rôles de Macbeth et Lady Macbeth.
     layout: left
-    alt: macbeth-verdi-ambre-kahan-Ekaterina-Sannikova
+    alt: macbeth-verdi-ambre-kahan-opera-national-bordeaux
+  - type: image
+    src: /img/uploads/26CD0923ORN_0475.JPG
+    caption: Principe du miroir sans teint, de part et d'autre du mur de crânes.
+    layout: right
+    alt: macbeth-verdi-ambre-kahan-anne-sophie-grac-scenographie-miroirs
   - type: image
     src: /img/uploads/26CD0923ORN_0692.JPG
     caption: ''
     layout: center
     alt: macbeth-verdi-ambre-kahan-jean-alois-belbachir-meurtre-de-duncan
-  - type: image
-    src: /img/uploads/26CD0923ORN_0709.JPG
-    caption: ''
-    layout: left
-    alt: macbeth-verdi-ambre-kahan-opera-national-bordeaux
   - type: image
     src: /img/uploads/26CD0923ORN_0752.JPG
     caption: ''
