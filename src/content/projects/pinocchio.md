@@ -9,9 +9,7 @@ pageCover: /img/uploads/pinocchio_ambre_kahan_la_cooperative_vibe_rouvet_la_fee_
 description: Créé au Festival d’Aix-en-Provence en 2017, Pinocchio réunit l’univers musical de Philippe Boesmans et l’écriture théâtrale de Joël Pommerat dans un opéra aussi poétique que saisissant. Entre fable et théâtre forain, cette histoire initiatique explore le passage de l’enfance à la conscience, dans un univers où le merveilleux côtoie la rudesse du réel. Pour cette nouvelle production de la co[opéra]tive, la metteuse en scène Ambre Kahan imagine un espace libre et vivant, peuplé de créatures, où chanteurs et musiciens deviennent les membres d’une même troupe.
 distribution:
   - role: Mise en scène
-    name: Ambre Kahan
-  - role: ''
-    name: sur un livret de Joël Pommerat.
+    name: Ambre Kahan.
   - role: ''
     name: Musique de Philippe Boesmans.
   - role: ''
@@ -23,12 +21,12 @@ distribution:
   - role: Lumières
     name: Zélie Champeau
   - role: Costumes
-    name: Anne-Sophie Grac
-  - role: Perruque
-    name: Création maquillage et perruque Judith Scotto
-  - role: Marionnette
-    name: Création masques et marionettes Louise Digard
-  - role: Son
+    name: Anne-Sophie Grac.
+  - role: ''
+    name: Création maquillage et perruque Judith Scotto.
+  - role: ''
+    name: Création masques et marionettes Louise Digard.
+  - role: ''
     name: Création sonore Clément Rousseaux
   - role: Régie générale
     name: Marie Bonnier
