@@ -42,5 +42,27 @@ distribution:
     name: Christophe Raynaud de Lage
   - role: Remerciements
     name: Adélaïde Gosselin et Lucie Lecarpentier pour la fabrication de ces magnifiques costumes et Paloma Ohnona pour son accompagnement.
-blocks: []
+blocks:
+  - type: image
+    src: /img/uploads/Pinocchio_la_cooperative_rene_ramos_premier.jpg
+    caption: "René Ramos Premier dans le rôle du Directeur de la troupe. À l'arrière : masques conçus par Louise Digard."
+    layout: left
+    alt: Pinocchio_la_cooperative_rené_ramos_premier
+  - type: image
+    src: /img/uploads/261103_RdL_0142.jpg
+    caption: ''
+    layout: center
+    alt: Pinocchio_la_cooperative_miroirs_etendus_opera_de_rouen
+  - type: image
+    src: /img/uploads/Pinocchio_la_cooperative_anais_merlin_jean_luc_ballestra.jpg
+    caption: Anaïs Merlin dans le rôle de Pinocchio et Jean-Luc Ballestra dans celui de Gepetto, le père.
+    layout: center
+    alt: Pinocchio_la_cooperative_anais_merlin_jean_luc_ballestra
+  - type: text
+    content: |-
+      **Rêves de scénographe ou rêves d'enfant ?**
+
+      Pour cette troisième collaboration avec Ambre, j'ai eu la chance de concevoir un espace hybride entre rêve et réalité : une piste de cirque à l’intérieur d'une forêt calcinée, une cabane dans les arbres, des personnages fantasques mi-humain.e.s mi-marionnettes, des loges et sièges de théâtre perdus dans la nuit, une tournette psychédélique, un gorille-juge d'instruction... 
+
+      Le parti pris de ce décor : un univers tout en monochrome de noir, loin du "circus" de nos imaginaires collectifs. Dans cette pénombre inquiétante, c'est les personnages qui viennent raviver les couleurs : une femme à barbe glamour, un directeur de cirque extravagant, une fée-ressuscitée... Chaque silhouette fait écho à l’œuvre originale de Colodi, où les hommes se mélangent au bestiaire.
 ---
