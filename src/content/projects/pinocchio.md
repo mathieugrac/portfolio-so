@@ -64,7 +64,7 @@ blocks:
 
       Le parti pris de ce décor : un univers tout en monochrome de noir, loin du "CIRCUS" coloré qui habite nos imaginaires. Dans cette pénombre inquiétante, c'est les personnages qui viennent raviver les couleurs : une femme à barbe glamour, un directeur de cirque extravagant, une fée-ressuscitée... Chaque silhouette fait écho à l’œuvre originale de Colodi, où les hommes se mélangent au bestiaire.
   - type: image
-    src: /img/uploads/Pinocchio-croquis-grac-anne-sophie-scenographie-ambre-kahan-get-out.png
+    src: /img/uploads/Pinocchio-croquis-grac-anne-sophie-scenographie.png
     caption: Croquis de l'espace scénique
     layout: center
     alt: Pinocchio-ambre-kahan-croquis-grac-anne-sophie-scenographie.png
@@ -81,11 +81,11 @@ blocks:
   - type: image
     src: /img/uploads/Pinocchio-costumes-opera-comique-anne-sophie-grac.png
     caption: 'Maquettes costumes : Pinocchio, Gepetto, La Fée'
-    layout: left
+    layout: center
     alt: Pinocchio-costumes-opera-comique-anne-sophie-grac
   - type: image
     src: /img/uploads/Pinocchio-costumes-opera-comique-anne-sophie-grac-ambre-kahan.png
     caption: "Maquettes costumes : Le Marchand d'ânes, le Directeur du Cabaret, deuxième Escroc, le mauvais élève"
-    layout: right
+    layout: center
     alt: Pinocchio-costumes-opera-comique-anne-sophie-grac-ambre-kahan
 ---
